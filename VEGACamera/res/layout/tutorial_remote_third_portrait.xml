@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pantech.app.vegacamera.remoteshot.wfd.ui.TutorialManagerLayout android:id="@id/tutorial_third_portrait_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/third_tuto" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/top_layout" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentTop="true">
+                <RelativeLayout android:id="@id/sec_back_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="39.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerInParent="true">
+                    <Button android:id="@id/tuto_third_prev_btn" android:background="@drawable/btn_tutorial_left_right" android:layout_width="100.0dip" android:layout_height="35.0dip" />
+                    <TextView android:textSize="19.0dip" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tuto_prev" android:layout_alignBaseline="@id/tuto_third_prev_btn" android:layout_alignBottom="@id/tuto_third_prev_btn" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginTop="39.0dip" android:layout_toLeftOf="@id/sec_confirm_area" android:layout_toRightOf="@id/sec_back_area" android:layout_alignParentTop="true" android:layout_centerInParent="true">
+                    <TextView android:textSize="19.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/third_page_num" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/sec_confirm_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="39.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_centerInParent="true">
+                    <Button android:id="@id/tuto_third_complete_btn" android:background="@drawable/btn_tutorial_left_right" android:layout_width="100.0dip" android:layout_height="35.0dip" />
+                    <TextView android:textSize="19.0dip" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tuto_complete" android:layout_alignBaseline="@id/tuto_third_complete_btn" android:layout_alignBottom="@id/tuto_third_complete_btn" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/center_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:layout_below="@id/top_layout">
+                <TextView android:textSize="22.0dip" android:textColor="#ff00ffff" android:id="@id/tuto_third_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tuto_third_text_01" android:shadowColor="#80000000" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/tuto_third_inner_text_01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/tuto_third_text_02" android:layout_below="@id/tuto_third_title" android:layout_alignParentLeft="true" android:lineSpacingExtra="4.0dip" />
+                <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/tuto_third_inner_text_02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/tuto_third_text_03" android:layout_below="@id/tuto_third_inner_text_01" android:lineSpacingExtra="4.0dip" />
+                <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/tuto_third_inner_text_03" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/tuto_third_text_04" android:layout_below="@id/tuto_third_inner_text_02" android:lineSpacingExtra="4.0dip" />
+                <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@id/tuto_third_inner_text_04" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="@string/tuto_third_text_05" android:layout_below="@id/tuto_third_inner_text_03" android:lineSpacingExtra="4.0dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.pantech.app.vegacamera.remoteshot.wfd.ui.TutorialManagerLayout>
+</RelativeLayout>

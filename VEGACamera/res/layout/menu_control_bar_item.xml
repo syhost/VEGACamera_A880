@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pantech.app.vegacamera.ui.RotateLayout android:id="@id/control_bar_item_rotate_l" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/control_bar_item_l" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.pantech.app.vegacamera.ui.RotateLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pantech.app.vegacamera.menu.popup.EffectsGroup android:id="@id/menu_popup_effects_g" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/menu_control_bar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/menu_arrow" android:background="@drawable/camera_menu_arrow" android:layout_width="@dimen/menu_popup_arrow_width" android:layout_height="@dimen/menu_popup_arrow_height" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <RelativeLayout android:background="@drawable/camera_menu_bg" android:layout_width="@dimen/menu_popup_effects_width" android:layout_height="@dimen/menu_popup_effects_height" android:layout_centerVertical="true">
+            <ListView android:scrollbarThumbVertical="@drawable/camera_setting_scroll" android:orientation="vertical" android:id="@id/popup_list_vg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/menu_popup_effects_margin_left" android:layout_marginTop="@dimen/menu_popup_effects_margin_top" android:layout_marginRight="@dimen/menu_popup_effects_margin_right" android:layout_marginBottom="@dimen/menu_popup_effects_margin_bottom" android:fadeScrollbars="true" android:overScrollMode="never" android:requiresFadingEdge="none" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.pantech.app.vegacamera.menu.popup.EffectsGroup>

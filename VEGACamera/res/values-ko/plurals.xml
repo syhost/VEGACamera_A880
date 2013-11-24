@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">선택한 항목을 삭제할까요?</item>
+        <item quantity="one">선택한 항목을 삭제할까요?</item>
+    </plurals>
+</resources>

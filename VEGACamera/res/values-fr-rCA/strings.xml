@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sensor_switch">Loading…</string>
+    <string name="wait_minute">Please wait for a minute.</string>
+    <string name="popup_title_question">Question</string>
+    <string name="popup_title_info">Information</string>
+    <string name="popup_button_yes">Yes</string>
+    <string name="popup_button_no">No</string>
+    <string name="camera_label">Camera</string>
+    <string name="video_camera_label">Camcorder</string>
+    <string name="pano_dialog_title">Panorama</string>
+    <string name="gallery_camera_bucket_name">Camera pictures</string>
+    <string name="gallery_camera_videos_bucket_name">Camera videos</string>
+    <string name="usb_connected">End camera while memory is in use.</string>
+    <string name="spaceIsLow_content_int">Unable to use camera due to exceeded memory capacity.</string>
+    <string name="spaceIsLow_content_ext">Unable to use camera due to exceeded memory capacity.</string>
+    <string name="cannot_connect_camera">Unable to operate camera. End camera.</string>
+    <string name="cannot_exec_camera_during_phonecall">End camcorder during a call.</string>
+    <string name="cannot_exec_camera_here">Unable to operate camera. Please unlock and try again.</string>
+    <string name="cannot_exec_camera_disabled_camera">Unable to operate camera. Unsupported task.</string>
+    <string name="cannot_exec_camera_app_crash">Close the other camera application and try again.</string>
+    <string name="preparing_sd">Media Scanning…</string>
+    <string name="access_sd_fail">End camera due to unrecognizable SD card.</string>
+    <string name="wait">Please wait…</string>
+    <string name="accessfail">Unable receive the GPS information.</string>
+    <string name="battery_low">The camera will be closed after 5 sec due to low battery. Recording file will be saved.</string>
+    <string name="battery_low_before_preview">The camera will be closed due to low battery.</string>
+    <string name="go_over_size_limit">End camera due to exceeded size limitation.</string>
+    <string name="set_disable">Anti shake and photometry are only available in normal mode.</string>
+    <string name="set_disable_front">Anti shake is not available with front camera.</string>
+    <string name="fail_to_save_jpeg">Unable to save. End camera.</string>
+    <string name="zoom_unavailable">Zoom is unavailable.</string>
+    <string name="disable_gallery">"Gallery is disabled.
+Check Application setting."</string>
+    <string name="cannot_exec_recording_during_phonecall">Can not recording during a call.</string>
+    <string name="storageUnavailable_changedStorage">Current storage is unavailable. Changed save location automatically.</string>
+    <string name="storageLowMemorySD_changedStorage">"Espace insuffisant sur la carte SD. Emplacement d'enreg. modifié automatiquement."</string>
+    <string name="storageLowMemoryInt_changedStorage">"Espace de stockage interne insuffisant. Emplacement d'enreg. modifié automatiquement."</string>
+    <string name="burstshot_change_resolution">Changer la résolution du mode rafale vers 5 M.</string>
+    <string name="focus_lock">"Focus is locked. 
+Tap the screen to change the exposure. 
+For unlocking, please long press the screen."</string>
+    <string name="picbest_processing">En cours…</string>
+    <string name="picbest_save_successed">Photo enreg.</string>
+    <string name="best_cling_title">Immortaliser les meilleurs instants</string>
+    <string name="best_cling_content">Gardez une trace des meilleurs instants et de votre meilleur minois</string>
+    <string name="face_cling_title">Choisir un visage</string>
+    <string name="face_cling_content">Choisir un visage reconnu</string>
+    <string name="cling_next">Suivant</string>
+    <string name="cling_backtostart">Retour</string>
+    <string name="cling_dismiss">OK</string>
+    <string name="cling_save">Enreg.</string>
+    <string name="panorama_start">Move horizontally to start capture.</string>
+    <string name="pano_too_fast_prompt">Too fast</string>
+    <string name="pano_dialog_prepare_preview">Preparing panorama</string>
+    <string name="pano_dialog_panorama_failed">Failed to create panorama</string>
+    <string name="pano_review_saving_indication_str">Saving…</string>
+    <string name="capture_cancel">Capture is cancelled.</string>
+    <string name="pano_direction_change">Move in the same direction</string>
+    <string name="review_cancel">CANCEL</string>
+    <string name="review_ok">OK</string>
+    <string name="alertmediaerror">"Unable to play.
+"</string>
+    <string name="edit">Edit</string>
+    <string name="transfer">Share</string>
+    <string name="delete">Delete</string>
+</resources>

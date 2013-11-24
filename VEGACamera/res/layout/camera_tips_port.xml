@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/camera_tips_portrait" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:layout_gravity="center_vertical" android:id="@id/left_btn" android:background="@drawable/btn_tutorial_left_right" android:layout_width="@dimen/tips_button_width" android:layout_height="@dimen/tips_button_height" android:layout_marginLeft="20.0dip" />
+    <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/middle_text" android:layout_width="@dimen/tips_middle_text_width" android:layout_height="@dimen/tips_button_height" />
+    <Button android:layout_gravity="center_vertical" android:id="@id/right_btn" android:background="@drawable/btn_tutorial_left_right" android:layout_width="@dimen/tips_button_width" android:layout_height="@dimen/tips_button_height" />
+</LinearLayout>

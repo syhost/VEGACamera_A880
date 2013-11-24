@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pantech.app.vegacamera.picbest.app.Tutorial_Layout android:id="@id/cling" android:layout_width="fill_parent" android:layout_height="fill_parent" picbest:drawIdentifier="all_apps_portrait"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:picbest="http://schemas.android.com/apk/res/com.pantech.app.vegacamera">
+        <FrameLayout android:id="@id/tutorial_01" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_gravity="bottom|right|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/toolbar_image_margin_bottom" android:layout_marginBottom="@dimen/toolbar_image_margin_right">
+                <FrameLayout android:background="@drawable/btn_bestshot_toolbar" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/save_icon" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/top_button_padding_left" android:layout_marginTop="@dimen/top_button_padding_top">
+                <Button android:id="@id/tutorial01_cling_next" android:background="@drawable/cling_button_bg_right" android:layout_width="100.0dip" android:layout_height="35.0dip" android:text="@string/cling_next" style="@style/ClingRightButton" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/port_cling_workspace_padding_left" android:layout_marginTop="@dimen/port_cling_workspace_padding_top">
+                <TextView android:id="@id/tutorial01_cling_title" android:text="@string/best_cling_title" style="@style/ClingTitleText" />
+                <TextView android:id="@id/tutorial01_cling_move_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/port_best_cling_content" style="@style/ClingText" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/port_middle_image_padding_left" android:layout_marginTop="@dimen/port_middle_image_padding_top">
+                <ImageView android:id="@id/tutorial01_middle_cling_save" android:background="@drawable/camera_tutorial_face" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/port_middle_workspace_padding_left" android:layout_marginTop="@dimen/port_middle_workspace_padding_top">
+                <TextView android:id="@id/middle_cling_title" android:text="@string/face_cling_title" style="@style/ClingTitleText" />
+                <TextView android:id="@id/tutorial01_middle_cling_move_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/face_cling_content" style="@style/ClingText" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="bottom|right|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/port_cling_arrow_padding_right" android:layout_marginBottom="@dimen/port_cling_arrow_padding_bottom">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cling_save" style="@style/ClingText" />
+                <ImageView android:layout_gravity="bottom" android:background="@drawable/camera_tutorial_arrow2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/tutorial_02" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_gravity="bottom|right|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/toolbar_image_margin_bottom" android:layout_marginBottom="@dimen/toolbar_image_margin_right">
+                <FrameLayout android:background="@drawable/btn_bestshot_toolbar" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ok_icon" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/top_personimage_margin_left">
+                <ImageView android:id="@id/tutorial02_personimage" android:background="@drawable/camera_tutorial_face_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top_button_padding_top">
+                <Button android:id="@id/cling_backtostart" android:background="@drawable/cling_button_bg_left" android:layout_width="100.0dip" android:layout_height="35.0dip" android:layout_marginRight="@dimen/port_bottom_button_padding_right" android:text="@string/cling_backtostart" style="@style/ClingLeftButton" />
+                <Button android:id="@id/cling_dismiss" android:background="@drawable/cling_button_bg_right" android:layout_width="100.0dip" android:layout_height="35.0dip" android:text="@string/cling_dismiss" style="@style/ClingRightButton" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/port_cling_tutorial_top_padding_left" android:layout_marginTop="@dimen/port_cling_tutorial_top_padding_top">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/change_person" style="@style/ClingText" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/port_tutorial02_middle_image_padding_top">
+                <ImageView android:id="@id/tutorial02_middle_cling_largeface" android:background="@drawable/camera_tutorial_shot_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/port_tutorial02_middle_smallimage_padding_top">
+                <ImageView android:id="@id/tutorial02_middle_cling_smallface" android:background="@drawable/camera_tutorial_best_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="bottom|left|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/port_tutorial02_middle_changeface_padding_left" android:layout_marginBottom="@dimen/port_tutorial02_middle_changeface_padding_bottom">
+                <TextView android:id="@id/middle_cling_title" android:text="@string/middle_change_face_title" style="@style/ClingTitleText" />
+                <TextView android:id="@id/middle_cling_move_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/middle_change_face_content" style="@style/ClingText" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="bottom|right|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/port_cling_arrow_padding_right" android:layout_marginBottom="@dimen/port_cling_arrow_padding_bottom">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cling_saving_done" style="@style/ClingText" />
+                <ImageView android:layout_gravity="bottom" android:background="@drawable/camera_tutorial_arrow2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+    </com.pantech.app.vegacamera.picbest.app.Tutorial_Layout>
+</RelativeLayout>

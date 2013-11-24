@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pantech.app.vegacamera.ui.RotateLayout android:id="@id/focus_indicator_rotate_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/focus_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.pantech.app.vegacamera.ui.FocusIndicatorView android:id="@id/focus_indicator" android:layout_width="106.0dip" android:layout_height="106.0dip" />
+        <com.pantech.app.vegacamera.ui.FocusLockIndicatorView android:id="@id/focus_lock_indicator" android:layout_width="106.0dip" android:layout_height="106.0dip" />
+    </FrameLayout>
+</com.pantech.app.vegacamera.ui.RotateLayout>

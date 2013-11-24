@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/thumb_menu" android:background="@drawable/camera_bottom_bg_land" android:paddingLeft="@dimen/selfshot_bottom_paddingleft" android:paddingTop="@dimen/selfshot_bottom_paddingtop" android:paddingBottom="@dimen/selfshot_bottom_paddingbottom" android:layout_width="fill_parent" android:layout_height="@dimen/selfshot_bottom_bg" android:layout_alignParentBottom="true">
+        <LinearLayout android:background="@drawable/camera_effect_normal" android:layout_width="@dimen/selfshot_thumb_layout_width" android:layout_height="@dimen/selfshot_thumb_layout_height">
+            <ImageView android:layout_gravity="center" android:id="@id/thumb_selfimg_1" android:layout_width="@dimen/selfshot_thumb_width" android:layout_height="@dimen/selfshot_thumb_height" android:layout_marginLeft="1.0dip" android:scaleType="centerCrop" />
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/camera_effect_normal" android:layout_width="@dimen/selfshot_thumb_layout_width" android:layout_height="@dimen/selfshot_thumb_layout_height" android:layout_marginLeft="@dimen/thumb_selfimg_gap">
+            <ImageView android:layout_gravity="center" android:id="@id/thumb_selfimg_2" android:layout_width="@dimen/selfshot_thumb_width" android:layout_height="@dimen/selfshot_thumb_height" android:layout_marginLeft="1.0dip" android:scaleType="centerCrop" />
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/camera_effect_normal" android:layout_width="@dimen/selfshot_thumb_layout_width" android:layout_height="@dimen/selfshot_thumb_layout_height" android:layout_marginLeft="@dimen/thumb_selfimg_gap">
+            <ImageView android:layout_gravity="center" android:id="@id/thumb_selfimg_3" android:layout_width="@dimen/selfshot_thumb_width" android:layout_height="@dimen/selfshot_thumb_height" android:layout_marginLeft="1.0dip" android:scaleType="centerCrop" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

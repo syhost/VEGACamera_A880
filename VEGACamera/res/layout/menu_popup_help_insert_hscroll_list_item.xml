@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/help_insert_scroll_item_selected" android:layout_width="@dimen/menu_popup_help_insert_list_item_width" android:layout_height="@dimen/menu_popup_help_insert_list_item_height" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/help_insert_scroll_item_l" android:clickable="true" android:layout_width="@dimen/menu_popup_help_insert_list_item_width" android:layout_height="@dimen/menu_popup_help_insert_list_item_height">
+        <ImageView android:id="@id/help_insert_scroll_item_icon" android:layout_width="@dimen/menu_popup_help_insert_list_item_icon_width" android:layout_height="@dimen/menu_popup_help_insert_list_item_icon_height" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <TextView android:textSize="@dimen/menu_popup_help_insert_list_item_text_size" android:textColor="@color/menu_popup_help_insert_hscroll_list_item_text_color_normal" android:ellipsize="marquee" android:gravity="center" android:id="@id/help_insert_scroll_item_title" android:layout_width="@dimen/menu_popup_help_insert_list_item_text_area_width" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="@color/menu_item_text_shadow_color" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+</RelativeLayout>

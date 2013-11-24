@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="self_number_of_images">3</integer>
+    <integer name="number_of_images">5</integer>
+    <integer name="browser_theme_white">3</integer>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pantech.app.vegacamera.aot.AOTLayout android:layout_gravity="center" android:padding="0.0dip" android:layout_width="@dimen/aot_land_display_width" android:layout_height="@dimen/aot_land_display_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/aot_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/aot_preview_layout" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextureView android:id="@id/aot_camera_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.pantech.app.vegacamera.aot.BitmapImageView android:id="@id/camera_review_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <RelativeLayout android:id="@id/guidelineLayout" android:background="@drawable/aot_camera_frame_bg_01" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:orientation="vertical" android:id="@id/mainLayout" android:background="#00000000" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/aot_bottom_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+                <RelativeLayout android:id="@id/toplayer" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+                    <ImageView android:id="@id/aot_closeBtn" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/aot_close_btn" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                    <ImageView android:id="@id/aot_actionBtn" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/aot_action_btn" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/bottomlayer" android:background="@drawable/aot_frame_bottom_bg_land" android:padding="1.0dip" android:layout_width="37.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                    <ImageView android:id="@id/aot_hilight_bg" android:layout_width="2.0dip" android:layout_height="fill_parent" android:src="@drawable/aot_frame_hilight_land" android:layout_alignParentTop="true" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/btns_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0">
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="20.0dip" android:layout_weight="1.0">
+                            <com.pantech.app.vegacamera.ui.RotateImageView android:id="@id/aot_flashBtn" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/aot_flash_btn" android:layout_centerInParent="true" />
+                        </RelativeLayout>
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="20.0dip" android:layout_weight="1.0">
+                            <com.pantech.app.vegacamera.ui.RotateImageView android:id="@id/aot_switchBtn" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/aot_switch_btn" android:layout_centerInParent="true" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <com.pantech.app.vegacamera.aot.AOTLayoutSizeController android:id="@id/aot_resizeBtn_Framelayout" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+                        <ImageButton android:layout_gravity="bottom|right|center" android:id="@id/aot_resizeBtn" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aot_resize_btn" />
+                    </com.pantech.app.vegacamera.aot.AOTLayoutSizeController>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/aot_shutter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <com.pantech.app.vegacamera.aot.AOTShutterButton android:id="@id/aot_shutterBtn" android:clickable="true" android:layout_width="58.0dip" android:layout_height="58.0dip" android:src="@drawable/aot_camera_shutter" />
+                    <com.pantech.app.vegacamera.ui.RotateImageView android:id="@id/aot_shutterIcon" android:layout_width="34.0dip" android:layout_height="24.0dip" android:src="@drawable/aot_camera_btn_shutter_icon" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</com.pantech.app.vegacamera.aot.AOTLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pantech.app.vegacamera.menu.popup.ButtonList android:id="@id/menu_popup_button_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/menu_control_bar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/menu_arrow" android:background="@drawable/camera_menu_arrow" android:layout_width="@dimen/menu_popup_arrow_width" android:layout_height="@dimen/menu_popup_arrow_height" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <RelativeLayout android:background="@drawable/camera_menu_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/menu_popup_1st_button_list_pos_margin_top">
+            <LinearLayout android:orientation="horizontal" android:id="@id/popup_list_vg" android:paddingLeft="@dimen/menu_popup_1st_button_list_margin_left" android:paddingRight="@dimen/menu_popup_1st_button_list_margin_right" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.pantech.app.vegacamera.menu.popup.ButtonList>

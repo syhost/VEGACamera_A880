@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/information_area_l" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/information_area_margin_top" android:layout_marginRight="@dimen/information_area_margin_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/information_area_g" android:background="@drawable/btn_information_area" android:paddingLeft="@dimen/indicator_view_padding_left" android:paddingTop="@dimen/indicator_view_padding_top" android:paddingRight="@dimen/indicator_view_padding_right" android:paddingBottom="@dimen/indicator_view_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:soundEffectsEnabled="false" android:contentDescription="@string/content_description_empty">
+        <com.pantech.app.vegacamera.ui.RotateImageView android:id="@id/picture_size_indicator" android:visibility="gone" android:layout_width="@dimen/indicator_view_width" android:layout_height="@dimen/indicator_view_width" />
+        <com.pantech.app.vegacamera.ui.RotateImageView android:id="@id/gps_indicator" android:visibility="gone" android:layout_width="@dimen/indicator_view_width" android:layout_height="@dimen/indicator_view_width" android:layout_marginLeft="@dimen/indicator_padding_left" android:src="@drawable/indicator_geotag_dim" />
+        <com.pantech.app.vegacamera.ui.RotateImageView android:id="@id/local_voice_indicator" android:visibility="gone" android:layout_width="@dimen/indicator_view_width" android:layout_height="@dimen/indicator_view_width" android:layout_marginLeft="@dimen/indicator_padding_left" />
+        <com.pantech.app.vegacamera.ui.RotateImageView android:id="@id/timer_indicator" android:visibility="gone" android:layout_width="@dimen/indicator_view_width" android:layout_height="@dimen/indicator_view_width" android:layout_marginLeft="@dimen/indicator_padding_left" />
+    </LinearLayout>
+</RelativeLayout>

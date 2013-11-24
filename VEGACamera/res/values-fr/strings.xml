@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="focus_mode_auto">auto</string>
+    <string name="focus_mode_infinity">Infini</string>
+    <string name="focus_mode_macro">Macro</string>
+    <string name="focus_mode_title">Mode mise au point</string>
+    <string name="flash_mode_camera_auto">auto</string>
+    <string name="flash_mode_camera_on">Activé</string>
+    <string name="flash_mode_camera_off">Désactivé</string>
+    <string name="flash_mode_camera_light">Light</string>
+    <string name="flash_mode_camera_title">Mode flash</string>
+    <string name="camera_id_back">Retour</string>
+    <string name="camera_id_front">Devant</string>
+    <string name="effect_color_tone_none">Aucun</string>
+    <string name="effect_color_tone_mono">Nuances de gris</string>
+    <string name="effect_color_tone_sepia">Sépia</string>
+    <string name="effect_color_tone_aqua">Aqua</string>
+    <string name="effect_color_tone_title">Effet de couleur</string>
+    <string name="effect_color_extraction_off">Aucun</string>
+    <string name="effect_color_extraction_touch">Touch</string>
+    <string name="effect_color_extraction_red">Rouge</string>
+    <string name="effect_color_extraction_green">Vert</string>
+    <string name="effect_color_extraction_blue">Bleu</string>
+    <string name="effect_color_extraction_yellow">Jaune</string>
+    <string name="effect_color_extraction_title">Couleur partielle</string>
+    <string name="mode_video_timelapse_0">Désactivé</string>
+    <string name="mode_video_timelapse_title">"Temps d'attente"</string>
+    <string name="mode_face_effect_none">Aucun</string>
+    <string name="mode_face_effect_squeeze">Écraser</string>
+    <string name="mode_face_effect_bigeyes">Grands yeux</string>
+    <string name="mode_face_effect_smalleyes">Petits yeux</string>
+    <string name="mode_face_effect_bigmouth">Grande bouche</string>
+    <string name="mode_face_effect_smallmouth">Petite bouche</string>
+    <string name="mode_face_effect_bignose">Grand nez</string>
+    <string name="mode_face_effect_title">Effet Face</string>
+    <string name="setting_size_title">Résolution</string>
+    <string name="setting_picture_size_title">Résolution</string>
+    <string name="setting_record_size_title">Résolution</string>
+    <string name="setting_timershot_off">Désactivé</string>
+    <string name="setting_timershot_03">3 sec.</string>
+    <string name="setting_timershot_05">5 sec.</string>
+    <string name="setting_timershot_10">10 sec.</string>
+    <string name="setting_timershot_title">Minuterie</string>
+    <string name="setting_ev_title">Exposition</string>
+    <string name="setting_wb_daylight">Lumière du jour</string>
+    <string name="setting_wb_fluorescent">Fluorescent</string>
+    <string name="setting_wb_cloudy">Nuageux</string>
+    <string name="setting_photometry_all">Large</string>
+    <string name="setting_photometry_center">Centré</string>
+    <string name="setting_photometry_spot">Spot</string>
+    <string name="setting_photometry_title">Photométrie</string>
+    <string name="setting_grid_off">Désactivé</string>
+    <string name="setting_grid_title">Grille</string>
+    <string name="setting_goto_viewer_on">Activé</string>
+    <string name="setting_goto_viewer_3sec">3 sec</string>
+    <string name="setting_goto_viewer_5sec">5 sec</string>
+    <string name="setting_goto_viewer_off">Désactivé</string>
+    <string name="setting_goto_viewer_title">Écran visual</string>
+    <string name="setting_focus_mode_touch">Toucher</string>
+    <string name="setting_focus_mode_object_tracking">Mise au point de suivi</string>
+    <string name="setting_focus_mode_title">Mode Focus</string>
+    <string name="setting_anti_banding_title">Anti fréquence</string>
+    <string name="setting_gps_info_on">Activé</string>
+    <string name="setting_gps_info_off">Désactivé</string>
+    <string name="setting_gps_info_title">Géotag</string>
+    <string name="setting_voice_record_on">Activé</string>
+    <string name="setting_voice_record_off">Désactivé</string>
+    <string name="setting_voice_record_title">Enreg. vocal</string>
+    <string name="setting_shutter_sound_on">Activé</string>
+    <string name="setting_shutter_sound_off">Désactivé</string>
+    <string name="setting_shutter_sound_title">Son déclencheur</string>
+    <string name="setting_anti_shake_on">Activé</string>
+    <string name="setting_anti_shake_off">Désactivé</string>
+    <string name="setting_anti_shake_title">Anti-vibrations</string>
+    <string name="setting_voice_recognition_on">Activé</string>
+    <string name="setting_voice_recognition_off">Désactivé</string>
+    <string name="setting_voice_recognition_title">reconn. vocale</string>
+    <string name="setting_reset_title">Param. app. photo</string>
+    <string name="setting_storage_location_internal">Téléphone</string>
+    <string name="setting_storage_location_external">SD</string>
+    <string name="sensor_switch">Chargement…</string>
+    <string name="wait_minute">Veuillez attendre une minute.</string>
+    <string name="popup_title_question">Question</string>
+    <string name="popup_title_info">Informations</string>
+    <string name="popup_button_yes">Oui</string>
+    <string name="popup_button_no">Non</string>
+    <string name="camera_label">App. photo</string>
+    <string name="video_camera_label">Caméscope</string>
+    <string name="pano_dialog_title">Panorama</string>
+    <string name="gallery_camera_bucket_name">"Photos de l'app. photo"</string>
+    <string name="gallery_camera_videos_bucket_name">"Vidéos de l'app. photo"</string>
+    <string name="usb_connected">"Arrêt app. photo pendant l'utilisation de la mémoire."</string>
+    <string name="spaceIsLow_content_int">"Impossible d'utiliser l'app. photo, capacité mémoire dépassée."</string>
+    <string name="spaceIsLow_content_ext">"Impossible d'utiliser l'app. photo, capacité mémoire dépassée."</string>
+    <string name="cannot_connect_camera">Échec fonctionnement app. photo. Arrêt app. photo.</string>
+    <string name="cannot_exec_camera_during_phonecall">Arrêt caméscope pendant un appel.</string>
+    <string name="cannot_exec_camera_here">Échec fonctionnement app. photo. Veuillez déverrouiller et réessayer.</string>
+    <string name="cannot_exec_camera_disabled_camera">Échec fonctionnement app. photo. Tâche non prise en charge.</string>
+    <string name="cannot_exec_camera_app_crash">"Fermez l'autre application d'app. photo et recommencez."</string>
+    <string name="preparing_sd">Scan du contenu…</string>
+    <string name="access_sd_fail">Arrêt app. photo, carte SD non reconnue.</string>
+    <string name="wait">Patientez…</string>
+    <string name="accessfail">Impossible de recevoir les données GPS.</string>
+    <string name="battery_low">"Batterie faible, l'app. photo s'éteindra dans 5 sec. Le fichier d'enreg. sera sauvegardé."</string>
+    <string name="battery_low_before_preview">"L'app. photo va s'éteindre car la batterie est faible."</string>
+    <string name="go_over_size_limit">Limite de taille dépassée. Arrêt app. photo.</string>
+    <string name="set_disable">Anti-vibrations et photométrie uniquement disponibles en mode normal.</string>
+    <string name="set_disable_front">Anti-vibrations non disponible avec caméra frontale.</string>
+    <string name="fail_to_save_jpeg">Enreg. impossible Arrêt app. photo.</string>
+    <string name="zoom_unavailable">Zoom indisponible.</string>
+    <string name="disable_gallery">"Galerie désactivée.
+Vérif. les param d'app."</string>
+    <string name="cannot_exec_recording_during_phonecall">Enreg. impossible pendant un appel.</string>
+    <string name="storageUnavailable_changedStorage">"Stockage en cours indisponible. Modif. auto de l'emplacement de stockage."</string>
+    <string name="storageLowMemorySD_changedStorage">"Espace insuffisant sur la carte SD. Emplacement d'enreg. modifié automatiquement."</string>
+    <string name="storageLowMemoryInt_changedStorage">"Espace de stockage interne insuffisant. Emplacement d'enreg. modifié automatiquement."</string>
+    <string name="burstshot_change_resolution">Changer la résolution du mode rafale vers 5 M.</string>
+    <string name="focus_lock">"Mise au point verrouillée. 
+Effleurez l'écran pour définir l'exposition. 
+Pour déverr., effl. l'icône de verr. de la mise au point."</string>
+    <string name="hdr_save">Enregistrer</string>
+    <string name="hdr_save_processing">Enreg. image HDR</string>
+    <string name="shutter_timer_tutorial_title">Minuteur on/off</string>
+    <string name="shutter_timer_tutorial_sub">"Pour effectuer les réglages, faites glisser le bouton de capture vers le centre de l'écran sans choisir de liste d'heures dans les réglages."</string>
+    <string name="browser_header">Emplacement enreg.</string>
+    <string name="browser_ok">OK</string>
+    <string name="browser_cancel">Annuler</string>
+    <string name="recoder_cancel">Enreg. annulé.</string>
+    <string name="capture_liveshot">Capturé. Enregistré dans la galerie.</string>
+    <string name="error_liveshot">Erreur pendant la capture.</string>
+    <string name="short_to_save">Vidéo réalisée trop courte pour être enregistrée.</string>
+    <string name="timelapse_cancel">"Temps d'attente est également désactivé"</string>
+    <string name="timelapseeffect_cancel">"Temps d'attente effet est également désactivé."</string>
+    <string name="video_reach_size_limit">Limite de taille atteinte.</string>
+    <string name="effects_resolution">"La résolution est modifiée pour appliquer l'effet."</string>
+    <string name="mms_size">1048576</string>
+    <string name="mms_encoder">H264</string>
+    <string name="mms_resolution">320x240</string>
+    <string name="mms_duration">3600000</string>
+    <string name="temperature_restrict_lcd">"Pour éviter tout risque de surchauffe, la luminosité de l'affichage est ajustée."</string>
+    <string name="temperature_restrict_flash">Pour éviter tout risque de surchauffe, le flash est désactivé.</string>
+    <string name="temperature_restrict_recording_stopped">"En cas de surchauffe de l'appareil, l'enregistrement est interrompu."</string>
+    <string name="temperature_restrict_recording_unavailable">"En cas de surchauffe de l'appareil, aucun enregistrement n'est possible."</string>
+    <string name="temperature_restrict_capture_unavailable">"En cas de surchauffe ne peut pas prendre une photo, aucun enregistrement n'est possible."</string>
+    <string name="picbest_processing">En cours…</string>
+    <string name="picbest_save_successed">Photo enreg.</string>
+    <string name="best_cling_title">Immortaliser les meilleurs instants</string>
+    <string name="best_cling_content">Gardez une trace des meilleurs instants et de votre meilleur minois</string>
+    <string name="face_cling_title">Choisir un visage</string>
+    <string name="face_cling_content">Choisir un visage reconnu</string>
+    <string name="cling_next">Suivant</string>
+    <string name="cling_backtostart">Retour</string>
+    <string name="cling_dismiss">OK</string>
+    <string name="cling_save">Enreg.</string>
+    <string name="panorama_start">Déplacer horizontalement pr lancer capture.</string>
+    <string name="pano_too_fast_prompt">Trop rapide</string>
+    <string name="pano_dialog_prepare_preview">Préparation panorama</string>
+    <string name="pano_dialog_panorama_failed">Echec création panorama</string>
+    <string name="pano_review_saving_indication_str">Enreg…</string>
+    <string name="capture_cancel">Échec de la capture.</string>
+    <string name="pano_direction_change">Déplacer dans le même sens</string>
+    <string name="speech_help">"Enreg. voix disponible.
+Go, Ok, Capture, Take,
+Take picture, Take photo, Smile, Cheese, Say cheese,
+Shoot, 1-2-3, 3-2-1"</string>
+    <string name="speech_net_connect_fail">"Connexion au réseau impossible.
+Vérifiez la connexion."</string>
+    <string name="speech_server_error">"Erreur serveur.
+Réessayez
+ultérieurement."</string>
+    <string name="speech_unknown_error">"Erreur inconnue.
+Réessayez
+ultérieurement."</string>
+    <string name="speech_no_image">Aucune image à exporter.</string>
+    <string name="speech_set_menu">"Sélect. Paramètres
+du menu de l'app. photo
+pour activer
+la reconn. vocale."</string>
+    <string name="review_cancel">Annuler</string>
+    <string name="review_ok">OK</string>
+    <string name="alertmediaerror">"Lecture impossible.
+"</string>
+    <string name="edit">Modifier</string>
+    <string name="transfer">Partager</string>
+    <string name="delete">Effacer</string>
+    <string name="facetagging">Insertion de tags sur les photos</string>
+    <string name="goto_quickview">Enreg. en cours</string>
+    <string name="delete_picture_how">Vous pouvez supprimer les images en coulissant vers le haut et le bas.</string>
+    <string name="spinner_1_size">Résolution</string>
+    <string name="spinner_1_size_prompt">Choisissez une résolution</string>
+    <string name="aot_finish_aotcamera">"Le lancement d'une autre application d'app. photo interrompra mini Camera."</string>
+    <string name="aot_unavailable_aotcamera_while_other_camera">"mini Camera indisponible pendant l'utilisation de l'app. photo."</string>
+    <string name="aot_unavailable_aotcamera_while_media">"mini Camera indisponible pendant l'utilisation des ressources multimédia."</string>
+</resources>

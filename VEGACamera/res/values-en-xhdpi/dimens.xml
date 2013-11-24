@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tutorial02_middle_changeface_padding_left">458.0dip</dimen>
+    <dimen name="tutorial02_middle_changeface_padding_top">165.0dip</dimen>
+</resources>

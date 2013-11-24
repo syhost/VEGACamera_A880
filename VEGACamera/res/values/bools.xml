@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="show_action_bar_title">false</bool>
+    <bool name="enable_show_each_pic_when_loading">false</bool>
+    <bool name="delete_burst_pictures">true</bool>
+    <bool name="camcorder_portrait_support">true</bool>
+</resources>

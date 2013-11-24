@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pantech.app.vegacamera.menu.popup.SeekBarList android:id="@id/menu_popup_seekbar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/menu_popup_seekbar_g" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/l_image" android:layout_width="@dimen/menu_popup_settings_seekbar_item_icon_size" android:layout_height="@dimen/menu_popup_settings_seekbar_item_icon_size" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <SeekBar android:id="@id/seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:thumb="@drawable/seekbar_thumb" />
+        </RelativeLayout>
+        <ImageView android:id="@id/r_image" android:layout_width="@dimen/menu_popup_settings_seekbar_item_icon_size" android:layout_height="@dimen/menu_popup_settings_seekbar_item_icon_size" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    </LinearLayout>
+</com.pantech.app.vegacamera.menu.popup.SeekBarList>

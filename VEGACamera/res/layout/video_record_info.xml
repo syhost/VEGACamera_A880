@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/record_info_l" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/video_info_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginRight="72.0dip" android:layout_alignParentRight="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/record_info_margin_top" android:layout_marginRight="@dimen/record_info_margin_right" android:layout_alignParentRight="true">
+        <com.pantech.app.vegacamera.ui.RotateLayout android:id="@id/recording_info_rect" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="107.0dip" android:layout_height="107.0dip">
+                <ImageView android:id="@id/recording_time_bg" android:background="@drawable/camera_info_bg" android:layout_width="107.0dip" android:layout_height="60.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                <ImageView android:id="@id/recording_icon" android:background="@drawable/camera_rec_red_icon" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="12.0dip" android:layout_alignLeft="@id/recording_time_bg" android:layout_alignTop="@id/recording_time_bg" />
+                <TextView android:textSize="16.0dip" android:textColor="@color/recording_time_elapsed_text" android:gravity="right" android:id="@id/recording_time" android:layout_width="68.0dip" android:layout_height="19.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="11.0dip" android:text="00:00:00" android:layout_alignTop="@id/recording_time_bg" android:layout_alignRight="@id/recording_time_bg" style="@style/recording_time_elapsed_text" />
+                <ImageView android:id="@id/mms_icon" android:background="@drawable/camera_mms_icon" android:visibility="gone" android:layout_width="21.0dip" android:layout_height="17.0dip" android:layout_marginLeft="7.0dip" android:layout_marginTop="9.0dip" android:layout_below="@id/recording_time" android:layout_alignLeft="@id/recording_time_bg" />
+                <TextView android:textSize="16.0dip" android:textColor="@color/recording_time_elapsed_text" android:gravity="right" android:id="@id/recording_size" android:layout_width="90.0dip" android:layout_height="19.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="11.0dip" android:text="0 KB" android:layout_below="@id/recording_time" android:layout_alignRight="@id/recording_time_bg" style="@style/recording_time_elapsed_text" />
+            </RelativeLayout>
+        </com.pantech.app.vegacamera.ui.RotateLayout>
+    </RelativeLayout>
+</RelativeLayout>

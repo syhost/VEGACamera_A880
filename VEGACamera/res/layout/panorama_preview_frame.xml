@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/frame_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/grid_v" android:background="@drawable/camera_grid" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/content_description_empty" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.pantech.app.vegacamera.ui.LayoutNotifyView android:layout_gravity="center" android:id="@id/preview_area" android:background="@drawable/ic_pan_border_fast" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.67" />
+    </LinearLayout>
+    <com.pantech.app.vegacamera.ui.RotateLayout android:id="@id/progressbar_l" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="120.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="120.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.pantech.app.vegacamera.panorama.PanoProgressBar android:id="@id/pan_progress_bar" android:visibility="gone" android:layout_width="260.0dip" android:layout_height="10.0dip" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/pan_left_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pano_direction_left_indicator" android:layout_toLeftOf="@id/pan_progress_bar" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/pan_right_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pano_direction_right_indicator" android:layout_toRightOf="@id/pan_progress_bar" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </com.pantech.app.vegacamera.ui.RotateLayout>
+    <com.pantech.app.vegacamera.ui.RotateLayout android:id="@id/capture_too_fast_text_l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/capture_too_fast_text_v" android:background="@drawable/pt_toast_frame_holo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pano_too_fast_prompt" android:shadowColor="#bb000000" android:shadowRadius="2.75" />
+    </com.pantech.app.vegacamera.ui.RotateLayout>
+</RelativeLayout>

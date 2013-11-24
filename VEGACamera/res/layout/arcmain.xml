@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/too_fast_shadow_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pantech.app.vegacamera.picbest.app.PicImgView android:id="@id/largePhoto" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+    <com.pantech.app.vegacamera.picbest.app.CustomView android:id="@id/customView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/toolbar_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+        <FrameLayout android:id="@id/toolbar_Info_layout" android:background="@drawable/btn_bestshot_toolbar" android:visibility="invisible" android:layout_width="50.0dip" android:layout_height="50.0dip">
+            <com.pantech.app.vegacamera.ui.RotateImageView android:layout_gravity="center" android:id="@id/info_image" android:layout_width="32.0dip" android:layout_height="33.0dip" android:src="@drawable/info_icon" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/toolbar_save_layout" android:background="@drawable/btn_bestshot_toolbar" android:visibility="invisible" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_toRightOf="@id/toolbar_Info_layout">
+            <com.pantech.app.vegacamera.ui.RotateImageView android:layout_gravity="center" android:id="@id/save_image" android:layout_width="32.0dip" android:layout_height="33.0dip" android:src="@drawable/save_icon" />
+        </FrameLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/toolbar_confirm_layout" android:background="@drawable/btn_bestshot_toolbar" android:visibility="invisible" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_alignParentRight="true">
+        <com.pantech.app.vegacamera.ui.RotateImageView android:layout_gravity="center" android:id="@id/confirm_image" android:layout_width="32.0dip" android:layout_height="33.0dip" android:src="@drawable/ok_icon" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/picbest" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/tutorial_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

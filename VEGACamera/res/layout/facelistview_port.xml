@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/faceImage_layout" android:background="@drawable/camera_effect_normal" android:layout_width="@dimen/top_face_frame_width" android:layout_height="@dimen/top_face_frame_height" android:layout_marginRight="@dimen/top_faces_image_gap">
+        <com.pantech.app.vegacamera.picbest.app.RectImageView_Person android:id="@id/faceImage" android:clickable="true" android:layout_width="@dimen/top_face_width" android:layout_height="@dimen/top_face_height" />
+    </LinearLayout>
+</LinearLayout>

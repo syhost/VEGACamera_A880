@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="focus_mode_entries">
+        <item>@string/focus_mode_auto</item>
+        <item>@string/focus_mode_infinity</item>
+        <item>@string/focus_mode_macro</item>
+    </string-array>
+    <string-array name="focus_mode_entryvalues">
+        <item>auto</item>
+        <item>infinity</item>
+        <item>macro</item>
+    </string-array>
+    <string-array name="flash_mode_camera_entries">
+        <item>@string/flash_mode_camera_on</item>
+        <item>@string/flash_mode_camera_off</item>
+        <item>@string/flash_mode_camera_auto</item>
+        <item>@string/flash_mode_camera_light</item>
+    </string-array>
+    <string-array name="flash_mode_camera_entryvalues">
+        <item>on</item>
+        <item>off</item>
+        <item>auto</item>
+        <item>torch</item>
+    </string-array>
+    <array name="flash_mode_camera_icons">
+        <item>@drawable/camera_icon_flash_on_default</item>
+        <item>@drawable/camera_icon_flash_off_default</item>
+        <item>@drawable/camera_icon_flash_auto_default</item>
+        <item>@drawable/camera_icon_flash_light_default</item>
+    </array>
+    <array name="flash_mode_camera_set_icons">
+        <item>@drawable/camera_icon_flash_on_selected</item>
+        <item>@drawable/camera_icon_flash_off_selected</item>
+        <item>@drawable/camera_icon_flash_auto_selected</item>
+        <item>@drawable/camera_icon_flash_light_selected</item>
+    </array>
+    <string-array name="flash_mode_video_entries">
+        <item>@string/flash_mode_camera_on</item>
+        <item>@string/flash_mode_camera_off</item>
+        <item>@string/flash_mode_camera_light</item>
+    </string-array>
+    <string-array name="flash_mode_video_entryvalues">
+        <item>on</item>
+        <item>off</item>
+        <item>torch</item>
+    </string-array>
+    <array name="flash_mode_video_icons">
+        <item>@drawable/camera_icon_flash_on_default</item>
+        <item>@drawable/camera_icon_flash_off_default</item>
+        <item>@drawable/camera_icon_flash_light_default</item>
+    </array>
+    <array name="flash_mode_video_set_icons">
+        <item>@drawable/camera_icon_flash_on_selected</item>
+        <item>@drawable/camera_icon_flash_off_selected</item>
+        <item>@drawable/camera_icon_flash_light_selected</item>
+    </array>
+    <string-array name="camera_id_entries">
+        <item>@string/camera_id_back</item>
+        <item>@string/camera_id_front</item>
+    </string-array>
+    <string-array name="camera_id_entryvalues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <array name="camera_id_icons">
+        <item>@drawable/camera_icon_back_default</item>
+        <item>@drawable/camera_icon_front_default</item>
+    </array>
+    <array name="camera_id_set_icons">
+        <item>@drawable/camera_icon_back_selected</item>
+        <item>@drawable/camera_icon_front_selected</item>
+    </array>
+    <string-array name="effect_group_entries">
+        <item>@string/effect_none_title</item>
+        <item>@string/effect_water_color_pencil_title</item>
+        <item>@string/effect_cartoon_title</item>
+        <item>@string/effect_poster_color_title</item>
+        <item>@string/effect_poster_b_n_w_title</item>
+        <item>@string/effect_dot_color_title</item>
+        <item>@string/effect_dot_b_n_w_title</item>
+        <item>@string/effect_neon_title</item>
+        <item>@string/effect_embossing_title</item>
+        <item>@string/effect_color_tone_mono</item>
+        <item>@string/effect_color_tone_sepia</item>
+        <item>@string/effect_color_tone_aqua</item>
+    </string-array>
+    <string-array name="effect_group_entryvalues">
+        <item>pref_effect_none</item>
+        <item>pref_effect_water_color_pencil</item>
+        <item>pref_effect_cartoon</item>
+        <item>pref_effect_poster_color</item>
+        <item>pref_effect_poster_b_n_w</item>
+        <item>pref_effect_dot_color</item>
+        <item>pref_effect_dot_b_n_w</item>
+        <item>pref_effect_neon</item>
+        <item>pref_effect_embossing</item>
+        <item>pref_effect_color_mono</item>
+        <item>pref_effect_color_sepia</item>
+        <item>pref_effect_color_aqua</item>
+        <item>pref_effect_color_extraction</item>
+    </string-array>
+    <array name="effect_group_icons">
+        <item>@drawable/camera_icon_effect_default</item>
+        <item>@drawable/camera_effect_preview_watercolor_pencil</item>
+        <item>@drawable/camera_effect_preview_cartoon</item>
+        <item>@drawable/camera_effect_preview_poster_color</item>
+        <item>@drawable/camera_effect_preview_poster_bw</item>
+        <item>@drawable/camera_effect_preview_dot_color</item>
+        <item>@drawable/camera_effect_preview_dot_bw</item>
+        <item>@drawable/camera_effect_preview_neon</item>
+        <item>@drawable/camera_effect_preview_embossing</item>
+        <item>@drawable/camera_effect_preview_grayscale</item>
+        <item>@drawable/camera_effect_preview_sepia</item>
+        <item>@drawable/camera_effect_preview_aqua</item>
+        <item>@drawable/camera_effect_preview_color_point</item>
+    </array>
+    <array name="effect_group_set_icons">
+        <item>@drawable/camera_icon_effect_selected</item>
+        <item>@drawable/camera_effect_preview_watercolor_pencil</item>
+        <item>@drawable/camera_effect_preview_cartoon</item>
+        <item>@drawable/camera_effect_preview_poster_color</item>
+        <item>@drawable/camera_effect_preview_poster_bw</item>
+        <item>@drawable/camera_effect_preview_dot_color</item>
+        <item>@drawable/camera_effect_preview_dot_bw</item>
+        <item>@drawable/camera_effect_preview_neon</item>
+        <item>@drawable/camera_effect_preview_embossing</item>
+        <item>@drawable/camera_effect_preview_grayscale</item>
+        <item>@drawable/camera_effect_preview_sepia</item>
+        <item>@drawable/camera_effect_preview_aqua</item>
+        <item>@drawable/camera_effect_preview_color_point</item>
+    </array>
+    <string-array name="effect_none_entries">
+        <item>@string/effect_none_off</item>
+        <item>@string/effect_none_on</item>
+    </string-array>
+    <string-array name="effect_none_entryvalues">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="effect_water_color_pencil_entries">
+        <item>@string/effect_water_color_pencil_off</item>
+        <item>@string/effect_water_color_pencil_on</item>
+    </string-array>
+    <string-array name="effect_water_color_pencil_entryvalues">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="effect_cartoon_entries">
+        <item>@string/effect_cartoon_off</item>
+        <item>@string/effect_cartoon_on</item>
+    </string-array>
+    <string-array name="effect_cartoon_entryvalues">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="effect_poster_color_entries">
+        <item>@string/effect_poster_color_off</item>
+        <item>@string/effect_poster_color_on</item>
+    </string-array>
+    <string-array name="effect_poster_color_entryvalues">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="effect_poster_b_n_w_entries">
+        <item>@string/effect_poster_b_n_w_off</item>
+        <item>@string/effect_poster_b_n_w_on</item>
+    </string-array>
+    <string-array name="effect_poster_b_n_w_entryvalues">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="effect_dot_color_entries">
+        <item>@string/effect_dot_color_off</item>
+        <item>@string/effect_dot_color_on</item>
+    </string-array>
+    <string-array name="effect_dot_color_entryvalues">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="effect_dot_b_n_w_entries">
+        <item>@string/effect_dot_b_n_w_off</item>
+        <item>@string/effect_dot_b_n_w_on</item>
+    </string-array>
+    <string-array name="effect_dot_b_n_w_entryvalues">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="effect_neon_entries">
+        <item>@string/effect_neon_off</item>
+        <item>@string/effect_neon_on</item>
+    </string-array>
+    <string-array name="effect_neon_entryvalues">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="effect_embossing_entries">
+        <item>@string/effect_embossing_off</item>
+        <item>@string/effect_embossing_on</item>
+    </string-array>
+    <string-array name="effect_embossing_entryvalues">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="effect_color_tone_mono_entries">
+        <item>@string/effect_color_tone_none</item>
+        <item>@string/effect_color_tone_mono</item>
+    </string-array>
+    <string-array name="effect_color_tone_mono_entryvalues">
+        <item>none</item>
+        <item>mono</item>
+    </string-array>
+    <string-array name="effect_color_tone_sepia_entries">
+        <item>@string/effect_color_tone_none</item>
+        <item>@string/effect_color_tone_sepia</item>
+    </string-array>
+    <string-array name="effect_color_tone_sepia_entryvalues">
+        <item>none</item>
+        <item>sepia</item>
+    </string-array>
+    <string-array name="effect_color_tone_aqua_entries">
+        <item>@string/effect_color_tone_none</item>
+        <item>@string/effect_color_tone_aqua</item>
+    </string-array>
+    <string-array name="effect_color_tone_aqua_entryvalues">
+        <item>none</item>
+        <item>aqua</item>
+    </string-array>
+    <string-array name="effect_color_extraction_entries">
+        <item>@string/effect_color_extraction_off</item>
+        <item>@string/effect_color_extraction_red</item>
+        <item>@string/effect_color_extraction_green</item>
+        <item>@string/effect_color_extraction_blue</item>
+        <item>@string/effect_color_extraction_yellow</item>
+        <item>@string/effect_color_extraction_touch</item>
+    </string-array>
+    <string-array name="effect_color_extraction_entryvalues">
+        <item>off</item>
+        <item>color_red</item>
+        <item>color_green</item>
+        <item>color_blue</item>
+        <item>color_yellow</item>
+        <item>color_touch</item>
+    </string-array>
+    <array name="effect_color_extraction_icons">
+        <item>@drawable/camera_effect_preview_color_point</item>
+        <item>@drawable/camera_effect_color_point_red</item>
+        <item>@drawable/camera_effect_color_point_green</item>
+        <item>@drawable/camera_effect_color_point_blue</item>
+        <item>@drawable/camera_effect_color_point_yellow</item>
+        <item>@drawable/camera_effect_color_point_touch</item>
+    </array>
+    <array name="effect_color_extraction_sub_icons">
+        <item>@drawable/camera_color_point_red</item>
+        <item>@drawable/camera_color_point_red</item>
+        <item>@drawable/camera_color_point_green</item>
+        <item>@drawable/camera_color_point_blue</item>
+        <item>@drawable/camera_color_point_yellow</item>
+        <item>@drawable/camera_color_point_touch</item>
+    </array>
+    <string-array name="mode_group_entries">
+        <item>@string/mode_normal_title</item>
+        <item>@string/mode_intelligent_title</item>
+        <item>@string/mode_hdr_title</item>
+        <item>@string/mode_face_effect_title</item>
+        <item>@string/mode_beauty_title</item>
+        <item>@string/mode_best_face_title</item>
+        <item>@string/mode_text_title</item>
+        <item>@string/mode_remote_title</item>
+        <item>@string/mode_self_title</item>
+        <item>@string/mode_panorama_title</item>
+        <item>@string/mode_video_timelapse_title</item>
+    </string-array>
+    <string-array name="mode_group_entryvalues">
+        <item>pref_mode_normal</item>
+        <item>pref_mode_intelligent</item>
+        <item>pref_mode_hdr</item>
+        <item>pref_mode_face_effect</item>
+        <item>pref_mode_beauty</item>
+        <item>pref_mode_best_face</item>
+        <item>pref_mode_text</item>
+        <item>pref_mode_remote</item>
+        <item>pref_mode_self</item>
+        <item>pref_mode_panorama</item>
+        <item>pref_mode_video_timelapse</item>
+    </string-array>
+    <array name="mode_group_icons">
+        <item>@drawable/camera_icon_mode_default</item>
+        <item>@drawable/camera_icon_intelligent_default</item>
+        <item>@drawable/camera_icon_hdr_default</item>
+        <item>@drawable/camera_icon_funny_face_default</item>
+        <item>@drawable/camera_icon_beauty_default</item>
+        <item>@drawable/camera_icon_bestface_default</item>
+        <item>@drawable/camera_icon_note_default</item>
+        <item>@drawable/camera_icon_remote_default</item>
+        <item>@drawable/camera_icon_self_shot_default</item>
+        <item>@drawable/camera_icon_panorama_default</item>
+        <item>@drawable/camera_icon_speed_motion_default</item>
+    </array>
+    <array name="mode_group_set_icons">
+        <item>@drawable/camera_icon_mode_selected</item>
+        <item>@drawable/camera_icon_intelligent_selected</item>
+        <item>@drawable/camera_icon_hdr_selected</item>
+        <item>@drawable/camera_icon_funny_face_selected</item>
+        <item>@drawable/camera_icon_beauty_selected</item>
+        <item>@drawable/camera_icon_bestface_selected</item>
+        <item>@drawable/camera_icon_note_selected</item>
+        <item>@drawable/camera_icon_remote_selected</item>
+        <item>@drawable/camera_icon_self_shot_selected</item>
+        <item>@drawable/camera_icon_panorama_selected</item>
+        <item>@drawable/camera_icon_speed_motion_selected</item>
+    </array>
+    <string-array name="modes_menu_type_entries">
+        <item>@string/modes_menu_type_list</item>
+        <item>@string/modes_menu_type_grid</item>
+    </string-array>
+    <string-array name="modes_menu_type_entryvalues">
+        <item>list</item>
+        <item>grid</item>
+    </string-array>
+    <string-array name="mode_normal_entries">
+        <item>@string/mode_normal_off</item>
+        <item>@string/mode_normal_on</item>
+    </string-array>
+    <string-array name="mode_normal_entryvalues">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="mode_intelligent_entries">
+        <item>@string/mode_intelligent_off</item>
+        <item>@string/mode_intelligent_auto</item>
+        <item>@string/mode_intelligent_macro</item>
+        <item>@string/mode_intelligent_outdoor</item>
+        <item>@string/mode_intelligent_indoor</item>
+        <item>@string/mode_intelligent_sunset</item>
+        <item>@string/mode_intelligent_night</item>
+        <item>@string/mode_intelligent_portrait</item>
+        <item>@string/mode_intelligent_flare_portrait</item>
+        <item>@string/mode_intelligent_night_portrait</item>
+        <item>@string/mode_intelligent_group_portrait</item>
+    </string-array>
+    <string-array name="mode_intelligent_entryvalues">
+        <item>off</item>
+        <item>asd</item>
+        <item>text</item>
+        <item>landscape</item>
+        <item>indoor</item>
+        <item>sunset</item>
+        <item>night</item>
+        <item>portrait</item>
+        <item>backlight</item>
+        <item>night-portrait</item>
+        <item>group-portrait</item>
+    </string-array>
+    <array name="mode_intelligent_icons">
+        <item></item>
+        <item>@drawable/camera_mode_intelligent_tips_icon_01</item>
+        <item>@drawable/camera_mode_intelligent_tips_icon_02</item>
+        <item>@drawable/camera_mode_intelligent_tips_icon_03</item>
+        <item>@drawable/camera_mode_intelligent_tips_icon_04</item>
+        <item>@drawable/camera_mode_intelligent_tips_icon_05</item>
+        <item>@drawable/camera_mode_intelligent_tips_icon_06</item>
+        <item>@drawable/camera_mode_intelligent_tips_icon_07</item>
+        <item>@drawable/camera_mode_intelligent_tips_icon_08</item>
+        <item>@drawable/camera_mode_intelligent_tips_icon_09</item>
+        <item>@drawable/camera_mode_intelligent_tips_icon_10</item>
+    </array>
+    <array name="mode_intelligent_help_tips_img">
+        <item></item>
+        <item>@drawable/camera_mode_intelligent_tips_01</item>
+        <item>@drawable/camera_mode_intelligent_tips_02</item>
+        <item>@drawable/camera_mode_intelligent_tips_03</item>
+        <item>@drawable/camera_mode_intelligent_tips_04</item>
+        <item>@drawable/camera_mode_intelligent_tips_05</item>
+        <item>@drawable/camera_mode_intelligent_tips_06</item>
+        <item>@drawable/camera_mode_intelligent_tips_07</item>
+        <item>@drawable/camera_mode_intelligent_tips_08</item>
+        <item>@drawable/camera_mode_intelligent_tips_09</item>
+        <item>@drawable/camera_mode_intelligent_tips_10</item>
+    </array>
+    <string-array name="mode_intelligent_help_tips_text">
+        <item></item>
+        <item>@string/mode_intelligent_auto_tip</item>
+        <item>@string/mode_intelligent_macro_tip</item>
+        <item>@string/mode_intelligent_outdoor_tip</item>
+        <item>@string/mode_intelligent_indoor_tip</item>
+        <item>@string/mode_intelligent_sunset_tip</item>
+        <item>@string/mode_intelligent_night_tip</item>
+        <item>@string/mode_intelligent_portrait_tip</item>
+        <item>@string/mode_intelligent_flare_portrait_tip</item>
+        <item>@string/mode_intelligent_night_portrait_tip</item>
+        <item>@string/mode_intelligent_group_portrait_tip</item>
+    </string-array>
+    <string-array name="mode_best_face_entries">
+        <item>@string/mode_best_face_off</item>
+        <item>@string/mode_best_face_on</item>
+    </string-array>
+    <string-array name="mode_best_face_entryvalues">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="mode_remote_entries">
+        <item>@string/mode_remote_off</item>
+        <item>@string/mode_remote_on</item>
+    </string-array>
+    <string-array name="mode_remote_entryvalues">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="mode_self_entries">
+        <item>@string/mode_self_off</item>
+        <item>@string/mode_self_on</item>
+    </string-array>
+    <string-array name="mode_self_entryvalues">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="mode_hdr_entries">
+        <item>@string/mode_hdr_off</item>
+        <item>@string/mode_hdr_on</item>
+    </string-array>
+    <string-array name="mode_hdr_entryvalues">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="mode_beauty_entries">
+        <item>@string/mode_beauty_off</item>
+        <item>@string/mode_beauty_on</item>
+    </string-array>
+    <string-array name="mode_beauty_entryvalues">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="mode_text_entries">
+        <item>@string/mode_text_off</item>
+        <item>@string/mode_text_mono</item>
+        <item>@string/mode_text_color</item>
+        <item>@string/mode_text_board</item>
+    </string-array>
+    <string-array name="mode_text_entryvalues">
+        <item>off</item>
+        <item>whiteboard</item>
+        <item>whiteboard_c</item>
+        <item>blackboard</item>
+    </string-array>
+    <array name="mode_text_sub_icon">
+        <item></item>
+        <item>@drawable/camera_mode_text_preview_black</item>
+        <item>@drawable/camera_mode_text_preview_color</item>
+        <item>@drawable/camera_mode_text_preview_board</item>
+    </array>
+    <array name="mode_text_help_tips_img">
+        <item></item>
+        <item>@drawable/camera_mode_text_bw</item>
+        <item>@drawable/camera_mode_text_color</item>
+        <item>@drawable/camera_mode_text_board</item>
+    </array>
+    <string-array name="mode_text_help_tips_text">
+        <item></item>
+        <item>@string/mode_text_mono_tip</item>
+        <item>@string/mode_text_color_tip</item>
+        <item>@string/mode_text_board_tip</item>
+    </string-array>
+    <string-array name="mode_panorama_entries">
+        <item>@string/mode_panorama_off</item>
+        <item>@string/mode_panorama_on</item>
+    </string-array>
+    <string-array name="mode_panorama_entryvalues">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="mode_video_timelapse_entries">
+        <item>@string/mode_video_timelapse_0</item>
+        <item>@string/mode_video_timelapse_300</item>
+        <item>@string/mode_video_timelapse_1000</item>
+        <item>@string/mode_video_timelapse_5000</item>
+    </string-array>
+    <string-array name="mode_video_timelapse_entryvalues">
+        <item>0</item>
+        <item>300</item>
+        <item>1000</item>
+        <item>5000</item>
+    </string-array>
+    <array name="mode_timelapse_sub_icon">
+        <item></item>
+        <item>@drawable/camera_mode_speed_preview_01</item>
+        <item>@drawable/camera_mode_speed_preview_02</item>
+        <item>@drawable/camera_mode_speed_preview_03</item>
+    </array>
+    <string-array name="mode_face_effect_entries">
+        <item>@string/mode_face_effect_none</item>
+        <item>@string/mode_face_effect_squeeze</item>
+        <item>@string/mode_face_effect_bigeyes</item>
+        <item>@string/mode_face_effect_smalleyes</item>
+        <item>@string/mode_face_effect_bigmouth</item>
+        <item>@string/mode_face_effect_smallmouth</item>
+        <item>@string/mode_face_effect_bignose</item>
+    </string-array>
+    <string-array name="mode_face_effect_entryvalues">
+        <item>none</item>
+        <item>squeeze</item>
+        <item>bigeyes</item>
+        <item>smalleyes</item>
+        <item>bigmouth</item>
+        <item>smallmouth</item>
+        <item>bignose</item>
+    </string-array>
+    <array name="mode_face_effect_icons">
+        <item></item>
+        <item>@drawable/camera_mode_icon_funny_face_squeeze</item>
+        <item>@drawable/camera_mode_icon_funny_face_bigeyes</item>
+        <item>@drawable/camera_mode_icon_funny_face_smalleyes</item>
+        <item>@drawable/camera_mode_icon_funny_face_bigmouth</item>
+        <item>@drawable/camera_mode_icon_funny_face_smallmouth</item>
+        <item>@drawable/camera_mode_icon_funny_face_bignose</item>
+    </array>
+    <array name="mode_face_effect_set_icons">
+        <item></item>
+        <item>@drawable/camera_mode_icon_funny_face_squeeze_pre</item>
+        <item>@drawable/camera_mode_icon_funny_face_bigeyes_pre</item>
+        <item>@drawable/camera_mode_icon_funny_face_smalleyes_pre</item>
+        <item>@drawable/camera_mode_icon_funny_face_bigmouth_pre</item>
+        <item>@drawable/camera_mode_icon_funny_face_smallmouth_pre</item>
+        <item>@drawable/camera_mode_icon_funny_face_bignose_pre</item>
+    </array>
+    <array name="mode_face_effect_tips_img">
+        <item></item>
+        <item>@drawable/camera_mode_tips_funny_face_squeeze</item>
+        <item>@drawable/camera_mode_tips_funny_face_bigeyes</item>
+        <item>@drawable/camera_mode_tips_funny_face_smalleyes</item>
+        <item>@drawable/camera_mode_tips_funny_face_bigmouth</item>
+        <item>@drawable/camera_mode_tips_funny_face_smallmouth</item>
+        <item>@drawable/camera_mode_tips_funny_face_bignose</item>
+    </array>
+    <array name="mode_face_effect_sub_icons">
+        <item></item>
+        <item>@drawable/camera_mode_icon_funny_face_squeeze</item>
+        <item>@drawable/camera_mode_icon_funny_face_bigeyes</item>
+        <item>@drawable/camera_mode_icon_funny_face_smalleyes</item>
+        <item>@drawable/camera_mode_icon_funny_face_bigmouth</item>
+        <item>@drawable/camera_mode_icon_funny_face_smallmouth</item>
+        <item>@drawable/camera_mode_icon_funny_face_bignose</item>
+    </array>
+    <string-array name="setting_group_entries">
+        <item>@string/setting_picture_size_title</item>
+        <item>@string/setting_record_size_title</item>
+        <item>@string/setting_timershot_title</item>
+        <item>@string/setting_ev_title</item>
+        <item>@string/setting_wb_title</item>
+        <item>@string/setting_iso_title</item>
+        <item>@string/setting_photometry_title</item>
+        <item>@string/setting_grid_title</item>
+        <item>@string/setting_goto_viewer_title</item>
+        <item>@string/setting_focus_mode_title</item>
+        <item>@string/setting_shutter_sound_title</item>
+        <item>@string/setting_anti_banding_title</item>
+        <item>@string/setting_gps_info_title</item>
+        <item>@string/setting_voice_record_title</item>
+        <item>@string/setting_anti_shake_title</item>
+        <item>@string/setting_reset_title</item>
+        <item>@string/setting_storage_location_title</item>
+    </string-array>
+    <string-array name="setting_group_entryvalues">
+        <item>pref_setting_picture_size</item>
+        <item>pref_setting_record_size</item>
+        <item>pref_setting_timershot</item>
+        <item>pref_setting_ev</item>
+        <item>pref_setting_wb</item>
+        <item>pref_setting_iso</item>
+        <item>pref_setting_photometry</item>
+        <item>pref_setting_grid</item>
+        <item>pref_setting_goto_viewer</item>
+        <item>pref_setting_focus_mode</item>
+        <item>pref_setting_quality</item>
+        <item>pref_setting_anti_banding</item>
+        <item>pref_setting_gps_info</item>
+        <item>pref_setting_voice_record</item>
+        <item>pref_setting_shutter_sound</item>
+        <item>pref_setting_anti_shake</item>
+        <item>pref_setting_reset</item>
+        <item>pref_setting_storage_location</item>
+    </string-array>
+    <string-array name="setting_picture_size_entries">
+        <item>@string/setting_picture_size_4160x3120</item>
+        <item>@string/setting_picture_size_4160x2340</item>
+        <item>@string/setting_picture_size_3264x2448</item>
+        <item>@string/setting_picture_size_3200x1920</item>
+        <item>@string/setting_picture_size_2048x1152</item>
+        <item>@string/setting_picture_size_1920x1080</item>
+        <item>@string/setting_picture_size_1600x1200</item>
+        <item>@string/setting_picture_size_640x480</item>
+    </string-array>
+    <string-array name="setting_picture_size_entryvalues">
+        <item>4160x3120</item>
+        <item>4160x2340</item>
+        <item>3264x2448</item>
+        <item>3200x1920</item>
+        <item>2048x1152</item>
+        <item>1920x1080</item>
+        <item>1600x1200</item>
+        <item>640x480</item>
+    </string-array>
+    <array name="setting_picture_size_icons">
+        <item>@drawable/indicator_resolution_13m</item>
+        <item>@drawable/indicator_resolution_10m</item>
+        <item>@drawable/indicator_resolution_8m</item>
+        <item>@drawable/indicator_resolution_6m</item>
+        <item>@drawable/indicator_resolution_24m</item>
+        <item>@drawable/indicator_resolution_2m_01</item>
+        <item>@drawable/indicator_resolution_2m</item>
+        <item>@drawable/indicator_resolution_03m</item>
+    </array>
+    <string-array name="setting_record_size_entries">
+        <item>@string/setting_record_size_fhd</item>
+        <item>@string/setting_record_size_hd</item>
+        <item>@string/setting_record_size_sd</item>
+        <item>@string/setting_record_size_qvga</item>
+        <item>@string/setting_record_size_qcif</item>
+    </string-array>
+    <string-array name="setting_record_size_entryvalues">
+        <item>1920x1080</item>
+        <item>1280x720</item>
+        <item>720x480</item>
+        <item>320x240</item>
+        <item>MMS</item>
+    </string-array>
+    <array name="setting_record_size_icons">
+        <item>@drawable/indicator_resolution_fhd</item>
+        <item>@drawable/indicator_resolution_hd</item>
+        <item>@drawable/indicator_resolution_sd</item>
+        <item>@drawable/indicator_resolution_mms</item>
+        <item>@drawable/indicator_resolution_mms</item>
+        <item>@drawable/indicator_resolution_mms</item>
+    </array>
+    <string-array name="setting_timershot_entries">
+        <item>@string/setting_timershot_off</item>
+        <item>@string/setting_timershot_03</item>
+        <item>@string/setting_timershot_05</item>
+        <item>@string/setting_timershot_10</item>
+    </string-array>
+    <string-array name="setting_timershot_entryvalues">
+        <item>Off</item>
+        <item>3Sec</item>
+        <item>5Sec</item>
+        <item>10Sec</item>
+    </string-array>
+    <array name="setting_timershot_icons_btn">
+        <item>@drawable/camera_settings_timer01_btn</item>
+        <item>@drawable/camera_settings_timer02_btn</item>
+        <item>@drawable/camera_settings_timer03_btn</item>
+        <item>@drawable/camera_settings_timer04_btn</item>
+    </array>
+    <array name="setting_timershot_icons_set_btn">
+        <item>@drawable/camera_setting_timer_01_pre</item>
+        <item>@drawable/camera_setting_timer_02_pre</item>
+        <item>@drawable/camera_setting_timer_03_pre</item>
+        <item>@drawable/camera_setting_timer_04_pre</item>
+    </array>
+    <array name="setting_timershot_icons">
+        <item></item>
+        <item>@drawable/indicator_timer_3sec</item>
+        <item>@drawable/indicator_timer_5sec</item>
+        <item>@drawable/indicator_timer_10sec</item>
+    </array>
+    <array name="camera_timershot_3sec_icons">
+        <item>@drawable/camera_timer_01</item>
+        <item>@drawable/camera_timer_02</item>
+        <item>@drawable/camera_timer_03</item>
+    </array>
+    <array name="camera_timershot_5sec_icons">
+        <item>@drawable/camera_timer_01</item>
+        <item>@drawable/camera_timer_02</item>
+        <item>@drawable/camera_timer_03</item>
+        <item>@drawable/camera_timer_04</item>
+        <item>@drawable/camera_timer_05</item>
+    </array>
+    <array name="camera_timershot_10sec_icons">
+        <item>@drawable/camera_timer_01</item>
+        <item>@drawable/camera_timer_02</item>
+        <item>@drawable/camera_timer_03</item>
+        <item>@drawable/camera_timer_04</item>
+        <item>@drawable/camera_timer_05</item>
+        <item>@drawable/camera_timer_06</item>
+        <item>@drawable/camera_timer_07</item>
+        <item>@drawable/camera_timer_08</item>
+        <item>@drawable/camera_timer_09</item>
+        <item>@drawable/camera_timer_10</item>
+    </array>
+    <string-array name="setting_ev_entries">
+        <item>@string/setting_ev_0</item>
+        <item>@string/setting_ev_1</item>
+        <item>@string/setting_ev_2</item>
+        <item>@string/setting_ev_3</item>
+        <item>@string/setting_ev_4</item>
+        <item>@string/setting_ev_5</item>
+        <item>@string/setting_ev_6</item>
+        <item>@string/setting_ev_7</item>
+        <item>@string/setting_ev_8</item>
+    </string-array>
+    <string-array name="setting_ev_entryvalues">
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="setting_wb_entries">
+        <item>@string/setting_wb_auto</item>
+        <item>@string/setting_wb_daylight</item>
+        <item>@string/setting_wb_cloudy</item>
+        <item>@string/setting_wb_fluorescent</item>
+        <item>@string/setting_wb_incandescent</item>
+    </string-array>
+    <string-array name="setting_wb_entryvalues">
+        <item>auto</item>
+        <item>daylight</item>
+        <item>cloudy-daylight</item>
+        <item>fluorescent</item>
+        <item>incandescent</item>
+    </string-array>
+    <array name="setting_wb_icons">
+        <item>@drawable/camera_settings_wb00_btn</item>
+        <item>@drawable/camera_settings_wb01_btn</item>
+        <item>@drawable/camera_settings_wb02_btn</item>
+        <item>@drawable/camera_settings_wb03_btn</item>
+        <item>@drawable/camera_settings_wb04_btn</item>
+    </array>
+    <array name="setting_wb_set_icons">
+        <item>@drawable/camera_setting_wb_00_pre</item>
+        <item>@drawable/camera_setting_wb_01_pre</item>
+        <item>@drawable/camera_setting_wb_02_pre</item>
+        <item>@drawable/camera_setting_wb_03_pre</item>
+        <item>@drawable/camera_setting_wb_04_pre</item>
+    </array>
+    <string-array name="setting_iso_entries">
+        <item>@string/setting_iso_auto</item>
+        <item>@string/setting_iso_100</item>
+        <item>@string/setting_iso_200</item>
+        <item>@string/setting_iso_400</item>
+        <item>@string/setting_iso_800</item>
+    </string-array>
+    <string-array name="setting_iso_entryvalues">
+        <item>auto</item>
+        <item>ISO100</item>
+        <item>ISO200</item>
+        <item>ISO400</item>
+        <item>ISO800</item>
+    </string-array>
+    <array name="setting_iso_icons">
+        <item>@drawable/camera_settings_iso01_btn</item>
+        <item>@drawable/camera_settings_iso02_btn</item>
+        <item>@drawable/camera_settings_iso03_btn</item>
+        <item>@drawable/camera_settings_iso04_btn</item>
+        <item>@drawable/camera_settings_iso05_btn</item>
+    </array>
+    <array name="setting_set_iso_icons">
+        <item>@drawable/camera_setting_iso_01_pre</item>
+        <item>@drawable/camera_setting_iso_02_pre</item>
+        <item>@drawable/camera_setting_iso_03_pre</item>
+        <item>@drawable/camera_setting_iso_04_pre</item>
+        <item>@drawable/camera_setting_iso_05_pre</item>
+    </array>
+    <string-array name="setting_photometry_entries">
+        <item>@string/setting_photometry_all</item>
+        <item>@string/setting_photometry_center</item>
+        <item>@string/setting_photometry_spot</item>
+    </string-array>
+    <string-array name="setting_photometry_entryvalues">
+        <item>frame-average</item>
+        <item>center-weighted</item>
+        <item>area-metering</item>
+    </string-array>
+    <string-array name="setting_grid_entries">
+        <item>@string/setting_grid_type_1</item>
+        <item>@string/setting_grid_type_2</item>
+        <item>@string/setting_grid_off</item>
+    </string-array>
+    <string-array name="setting_grid_entryvalues">
+        <item>type1</item>
+        <item>type2</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="setting_goto_viewer_entries">
+        <item>@string/setting_goto_viewer_on</item>
+        <item>@string/setting_goto_viewer_3sec</item>
+        <item>@string/setting_goto_viewer_5sec</item>
+        <item>@string/setting_goto_viewer_off</item>
+    </string-array>
+    <string-array name="setting_goto_viewer_entryvalues">
+        <item>on</item>
+        <item>3sec</item>
+        <item>5sec</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="setting_focus_mode_entries">
+        <item>@string/setting_focus_mode_touch</item>
+        <item>@string/setting_focus_mode_object_tracking</item>
+    </string-array>
+    <string-array name="setting_focus_mode_entryvalues">
+        <item>Touch</item>
+        <item>Object Tracking</item>
+    </string-array>
+    <string-array name="setting_quality_entries">
+        <item>@string/setting_quality_super_fine</item>
+        <item>@string/setting_quality_fine</item>
+        <item>@string/setting_quality_normal</item>
+    </string-array>
+    <string-array name="setting_quality_entryvalues">
+        <item>95</item>
+        <item>85</item>
+        <item>75</item>
+    </string-array>
+    <string-array name="setting_anti_banding_entries">
+        <item>@string/setting_anti_banding_auto</item>
+        <item>@string/setting_anti_banding_50hz</item>
+        <item>@string/setting_anti_banding_60hz</item>
+    </string-array>
+    <string-array name="setting_anti_banding_entryvalues">
+        <item>auto</item>
+        <item>50hz</item>
+        <item>60hz</item>
+    </string-array>
+    <string-array name="setting_gps_info_entries">
+        <item>@string/setting_gps_info_on</item>
+        <item>@string/setting_gps_info_off</item>
+    </string-array>
+    <string-array name="setting_gps_info_entryvalues">
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="setting_continuous_shot_entries">
+        <item>@string/setting_continuous_shot_on</item>
+        <item>@string/setting_continuous_shot_off</item>
+    </string-array>
+    <string-array name="setting_continuous_shot_entryvalues">
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="setting_low_light_entries">
+        <item>@string/setting_low_light_on</item>
+        <item>@string/setting_low_light_off</item>
+    </string-array>
+    <string-array name="setting_low_light_entryvalues">
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="setting_mirror_entries">
+        <item>@string/setting_mirror_on</item>
+        <item>@string/setting_mirror_off</item>
+    </string-array>
+    <string-array name="setting_mirror_entryvalues">
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="setting_voice_record_entries">
+        <item>@string/setting_voice_record_on</item>
+        <item>@string/setting_voice_record_off</item>
+    </string-array>
+    <string-array name="setting_voice_record_entryvalues">
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="setting_shutter_sound_entries">
+        <item>@string/setting_shutter_sound_on</item>
+        <item>@string/setting_shutter_sound_off</item>
+    </string-array>
+    <string-array name="setting_shutter_sound_entryvalues">
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="setting_anti_shake_entries">
+        <item>@string/setting_anti_shake_on</item>
+        <item>@string/setting_anti_shake_off</item>
+    </string-array>
+    <string-array name="setting_anti_shake_entryvalues">
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="setting_voice_recognition_entries">
+        <item>@string/setting_voice_recognition_on</item>
+        <item>@string/setting_voice_recognition_off</item>
+    </string-array>
+    <string-array name="setting_voice_recognition_entryvalues">
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="setting_reset_entries">
+        <item>@string/setting_reset_on</item>
+        <item>@string/setting_reset_off</item>
+    </string-array>
+    <string-array name="setting_reset_entryvalues">
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="setting_storage_location_entries">
+        <item>@string/setting_storage_location_internal</item>
+        <item>@string/setting_storage_location_external</item>
+    </string-array>
+    <string-array name="setting_storage_location_entryvalues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="setting_help_entries">
+        <item>@string/setting_help_on</item>
+        <item>@string/setting_help_off</item>
+    </string-array>
+    <string-array name="setting_help_entryvalues">
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="setting_collect_type_entries">
+        <item>@string/setting_collect_type_normal</item>
+        <item>@string/setting_collect_type_advance</item>
+    </string-array>
+    <string-array name="setting_collect_type_entryvalues">
+        <item>normal</item>
+        <item>advance</item>
+    </string-array>
+    <string-array name="global_preference_entries">
+        <item>pref_camera_id_status</item>
+        <item>pref_modes_menu_type</item>
+        <item>pref_setting_gps_info</item>
+        <item>pref_setting_voice_recognition</item>
+        <item>pref_setting_goto_viewer</item>
+        <item>pref_setting_grid</item>
+        <item>pref_setting_quality</item>
+        <item>pref_setting_voice_record</item>
+        <item>pref_setting_storage_location</item>
+        <item>pref_setting_collect_type</item>
+        <item>pref_setting_shutter_sound</item>
+        <item>pref_check_factory_value</item>
+    </string-array>
+    <string-array name="applet_volatile_values">
+        <item>pref_effect_group</item>
+        <item>pref_effect_none</item>
+        <item>pref_effect_water_color_pencil</item>
+        <item>pref_effect_cartoon</item>
+        <item>pref_effect_poster_color</item>
+        <item>pref_effect_poster_b_n_w</item>
+        <item>pref_effect_dot_color</item>
+        <item>pref_effect_dot_b_n_w</item>
+        <item>pref_effect_neon</item>
+        <item>pref_effect_embossing</item>
+        <item>pref_effect_color_mono</item>
+        <item>pref_effect_color_sepia</item>
+        <item>pref_effect_color_aqua</item>
+        <item>pref_effect_color_tone</item>
+        <item>pref_effect_color_extraction</item>
+        <item>pref_mode_group</item>
+        <item>pref_mode_normal</item>
+        <item>pref_mode_intelligent</item>
+        <item>pref_mode_best_face</item>
+        <item>pref_mode_remote</item>
+        <item>pref_mode_self</item>
+        <item>pref_mode_hdr</item>
+        <item>pref_mode_beauty</item>
+        <item>pref_mode_text</item>
+        <item>pref_mode_panorama</item>
+        <item>pref_mode_video_timelapse</item>
+        <item>pref_mode_face_effect</item>
+        <item>pref_setting_group</item>
+        <item>pref_setting_timershot</item>
+        <item>pref_setting_ev</item>
+        <item>pref_setting_wb</item>
+        <item>pref_setting_iso</item>
+        <item>pref_setting_focus_mode</item>
+        <item>pref_setting_anti_shake</item>
+        <item>pref_setting_reset</item>
+        <item>pref_setting_help</item>
+    </string-array>
+    <string-array name="local_voice_capture_words">
+        <item>@string/local_voice_capture_word_1</item>
+        <item>@string/local_voice_capture_word_2</item>
+        <item>@string/local_voice_capture_word_3</item>
+        <item>@string/local_voice_capture_word_4</item>
+        <item>@string/local_voice_capture_word_5</item>
+        <item>@string/local_voice_capture_word_6</item>
+    </string-array>
+    <string-array name="local_voice_msg_words">
+        <item>@string/local_voice_msg_word_1</item>
+        <item>@string/local_voice_msg_word_2</item>
+        <item>@string/local_voice_msg_word_3</item>
+        <item>@string/local_voice_msg_word_4</item>
+        <item>@string/local_voice_msg_word_5</item>
+        <item>@string/local_voice_msg_word_6</item>
+        <item>@string/local_voice_msg_word_7</item>
+        <item>@string/local_voice_msg_word_8</item>
+    </string-array>
+    <string-array name="local_voice_email_words">
+        <item>@string/local_voice_email_word_1</item>
+        <item>@string/local_voice_email_word_2</item>
+        <item>@string/local_voice_email_word_3</item>
+        <item>@string/local_voice_email_word_4</item>
+    </string-array>
+    <string-array name="local_voice_flashon_words">
+        <item>@string/local_voice_flashon_word_1</item>
+    </string-array>
+    <string-array name="local_voice_flashoff_words">
+        <item>@string/local_voice_flashoff_word_1</item>
+    </string-array>
+    <string-array name="local_voice_flashauto_words">
+        <item>@string/local_voice_flashauto_word_1</item>
+        <item>@string/local_voice_flashauto_word_2</item>
+    </string-array>
+    <string-array name="local_voice_flashtorch_words">
+        <item>@string/local_voice_flashtorch_word_1</item>
+    </string-array>
+    <string-array name="local_voice_zoomin_words">
+        <item>@string/local_voice_zoomin_word_1</item>
+    </string-array>
+    <string-array name="local_voice_zoomout_words">
+        <item>@string/local_voice_zoomout_word_1</item>
+    </string-array>
+    <string-array name="local_voice_switchid_words">
+        <item>@string/local_voice_switchid_word_1</item>
+        <item>@string/local_voice_switchid_word_2</item>
+    </string-array>
+    <string-array name="local_voice_gallery_words">
+        <item>@string/local_voice_gallery_word_1</item>
+        <item>@string/local_voice_gallery_word_2</item>
+    </string-array>
+    <string-array name="local_voice_help_words">
+        <item>@string/local_voice_help_word_1</item>
+        <item>@string/local_voice_help_word_2</item>
+        <item>@string/local_voice_help_word_3</item>
+        <item>@string/local_voice_help_word_4</item>
+    </string-array>
+    <string-array name="local_voice_record_words">
+        <item>@string/local_voice_record_word_1</item>
+        <item>@string/local_voice_record_word_2</item>
+    </string-array>
+    <string-array name="pref_pst_size">
+        <item>2560x1920</item>
+        <item>2000x1200</item>
+        <item>1600x1200</item>
+        <item>1280x960</item>
+        <item>800x480</item>
+        <item>640x480</item>
+    </string-array>
+    <string-array name="pref_pst_shuttersound">
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="pref_pst_wb">
+        <item>Auto</item>
+        <item>Daylight</item>
+        <item>Cloudy</item>
+        <item>Fluorescent</item>
+        <item>Tungsten</item>
+    </string-array>
+    <string-array name="pref_pst_flash">
+        <item>Auto</item>
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    <array name="photo_layout_control">
+        <item>@layout/menu_control</item>
+        <item>@layout/information_area</item>
+        <item>@layout/control_bar</item>
+        <item>@layout/photo_shutter</item>
+        <item>@layout/timer_count</item>
+        <item>@layout/zoom_control</item>
+        <item>@layout/color_extraction_control</item>
+    </array>
+    <array name="asm_layout_control">
+        <item>@layout/menu_control</item>
+        <item>@layout/information_area</item>
+        <item>@layout/control_bar</item>
+        <item>@layout/photo_shutter</item>
+        <item>@layout/timer_count</item>
+        <item>@layout/zoom_control</item>
+    </array>
+    <array name="beauty_layout_control">
+        <item>@layout/menu_control</item>
+        <item>@layout/information_area</item>
+        <item>@layout/control_bar</item>
+        <item>@layout/photo_shutter</item>
+        <item>@layout/timer_count</item>
+        <item>@layout/zoom_control</item>
+    </array>
+    <array name="effect_layout_control">
+        <item>@layout/menu_control</item>
+        <item>@layout/information_area</item>
+        <item>@layout/control_bar</item>
+        <item>@layout/photo_shutter</item>
+        <item>@layout/zoom_control</item>
+        <item>@layout/face_distortion_control</item>
+    </array>
+    <array name="panorama_layout_control">
+        <item>@layout/menu_control</item>
+        <item>@layout/information_area</item>
+        <item>@layout/control_bar</item>
+        <item>@layout/panorama_shutter</item>
+        <item>@layout/zoom_control</item>
+    </array>
+    <array name="record_layout_control">
+        <item>@layout/menu_control</item>
+        <item>@layout/record_stop_shutter</item>
+        <item>@layout/zoom_control</item>
+        <item>@layout/video_record_info</item>
+    </array>
+    <array name="remote_layout_control">
+        <item>@layout/menu_control</item>
+        <item>@layout/information_area</item>
+        <item>@layout/control_bar</item>
+        <item>@layout/remote_shutter</item>
+        <item>@layout/timer_count</item>
+        <item>@layout/zoom_control</item>
+        <item>@layout/nfc_help</item>
+        <item>@layout/tutorial_remote_first_portrait</item>
+        <item>@layout/tutorial_remote_first_land</item>
+        <item>@layout/tutorial_remote_second_portrait</item>
+        <item>@layout/tutorial_remote_second_land</item>
+        <item>@layout/tutorial_remote_third_portrait</item>
+        <item>@layout/tutorial_remote_third_land</item>
+    </array>
+    <array name="self_layout_control">
+        <item>@layout/camera_selfshot</item>
+        <item>@layout/menu_control</item>
+        <item>@layout/information_area</item>
+        <item>@layout/timer_count</item>
+        <item>@layout/control_bar</item>
+    </array>
+    <array name="text_layout_control">
+        <item>@layout/menu_control</item>
+        <item>@layout/information_area</item>
+        <item>@layout/control_bar</item>
+        <item>@layout/photo_shutter</item>
+        <item>@layout/timer_count</item>
+        <item>@layout/zoom_control</item>
+        <item>@layout/text_control</item>
+    </array>
+    <array name="video_layout_control">
+        <item>@layout/menu_control</item>
+        <item>@layout/information_area</item>
+        <item>@layout/control_bar</item>
+        <item>@layout/video_shutter</item>
+        <item>@layout/zoom_control</item>
+        <item>@layout/timelapse_control</item>
+    </array>
+    <string-array name="smartcover_layout_control">
+        <item>@layout/smartcover_shutter</item>
+    </string-array>
+    <string-array name="sharpness_layout_control">
+        <item>@layout/sharpness_control</item>
+    </string-array>
+</resources>

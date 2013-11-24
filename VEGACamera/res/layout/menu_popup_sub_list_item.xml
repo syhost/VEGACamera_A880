@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pantech.app.vegacamera.ui.RotateLayout android:id="@id/sub_popup_item_rotate_l" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/sub_popup_item_l" android:layout_width="@dimen/sub_icon_width" android:layout_height="@dimen/sub_icon_height">
+            <ImageView android:id="@id/sub_popup_item_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/sub_popup_item_selected" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ok_icon" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </com.pantech.app.vegacamera.ui.RotateLayout>
+</RelativeLayout>

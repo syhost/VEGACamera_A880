@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cannot_exec_camera_during_phonecall">Finalizar videograbadora durante una llamada.</string>
+    <string name="cannot_exec_camera_here">No se puede operar la cámara Abra e intente otra vez.</string>
+    <string name="battery_low_before_preview">La cámara se cerrará debido a batería baja.</string>
+    <string name="disable_gallery">"La galería está desactivada.
+Verificar configuración de la aplicación."</string>
+    <string name="burstshot_change_resolution">Cambie la resolución para toma en Ráfaga a 5M.</string>
+    <string name="focus_lock">"Enfoque asegurado. 
+Toque la pantalla para programar la exposición. 
+Para abrir, toque el icono de seguro de enfoque."</string>
+    <string name="recoder_cancel">Grabación es cancelada.</string>
+    <string name="temperature_restrict_lcd">Para evitar el aumento de temperatura, el brillo del LCD está ajustado.</string>
+    <string name="temperature_restrict_flash">Para evitar el aumento de temperatura, el flash está apagado.</string>
+    <string name="temperature_restrict_recording_stopped">A medida que aumenta la temperatura del dispositivo, la grabación es detenida.</string>
+    <string name="temperature_restrict_recording_unavailable">A medida que aumenta la temperatura del dispositivo, la grabación no está disponible.</string>
+    <string name="temperature_restrict_capture_unavailable">A medida que aumenta la temperatura no puede tomar una foto, la grabación no está disponible.</string>
+    <string name="picbest_processing">En progreso…</string>
+    <string name="picbest_save_successed">Fotografía guardada.</string>
+    <string name="best_cling_title">Capturar los mejores momentos</string>
+    <string name="best_cling_content">Capture los mejores momentos con su mejor cara</string>
+    <string name="face_cling_title">con su mejor cara</string>
+    <string name="face_cling_content">Seleccionar una cara reconocida</string>
+    <string name="cling_next">Siguiente</string>
+    <string name="cling_backtostart">Atrás</string>
+    <string name="cling_dismiss">Aceptar</string>
+    <string name="cling_save">Guardar</string>
+    <string name="speech_help">"La captura de voz está disponible.
+Go, Ok, Capture, Take,
+Take picture, Take photo, Smile, Cheese, Say cheese,
+Shoot, 1-2-3, 3-2-1"</string>
+    <string name="speech_net_connect_fail">"No puede conectar la red.
+Compruebe la conexión."</string>
+    <string name="speech_server_error">"Ocurrió un error
+del servidor,
+intente luego."</string>
+    <string name="speech_unknown_error">"Ocurrió un error
+desconocido,
+intente luego."</string>
+    <string name="speech_no_image">"No hay imágenes
+para cargar"</string>
+    <string name="speech_set_menu">"Seleccione configuración
+desde el menú cámara
+para encender el reconocimiento
+de voz."</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right|center" android:id="@id/video_shutter_l" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/control_bar_margin_right" android:layerType="software"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pantech.app.vegacamera.controller.ShutterButton android:id="@id/video_shutter_button" android:background="@drawable/shutter_button_bg" android:clickable="true" android:layout_width="@dimen/main_shutter_button_width" android:layout_height="@dimen/main_shutter_button_height" android:src="@drawable/camera_icon_cam" android:scaleType="center" android:soundEffectsEnabled="false" android:contentDescription="@string/content_description_empty" />
+</LinearLayout>

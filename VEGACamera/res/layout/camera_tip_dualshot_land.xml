@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/camera_tip_dualshot_landscape" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dualshot" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="102.0dip">
+        <TextView android:textSize="@dimen/tips_title_textsize" android:textColor="@color/tips_title_color" android:id="@id/dualshot_title" android:layout_width="266.0dip" android:layout_height="wrap_content" android:text="@string/tips_dualshot_title" android:shadowColor="@color/tips_title_shadow_color" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+        <TextView android:textSize="@dimen/tips_sub_textsize" android:textColor="@color/tips_sub_color" android:id="@id/dualshot_sub" android:layout_width="266.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/tips_dualshot_sub" android:layout_below="@id/dualshot_title" android:layout_alignLeft="@id/dualshot_title" android:lineSpacingExtra="3.0dip" />
+        <ImageView android:id="@id/dualshot_image" android:background="@drawable/camera_help_img_03" android:layout_width="320.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/dualshot_title" android:layout_alignTop="@id/dualshot_title" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="right" android:id="@id/control_bar_l" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/control_bar_margin_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/tips_l" android:visibility="gone" android:layout_width="@dimen/control_bar_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tips_img_top_margin" android:layout_alignParentTop="true">
+        <com.pantech.app.vegacamera.ui.RotateImageView android:id="@id/tips_view" android:background="@drawable/camera_menubar_bg" android:clickable="true" android:layout_width="@dimen/tips_img_size" android:layout_height="@dimen/tips_img_size" android:src="@drawable/btn_tips" android:scaleType="fitCenter" android:layout_centerInParent="true" android:soundEffectsEnabled="false" android:contentDescription="@string/content_description_empty" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/thumbnail_view_g" android:visibility="gone" android:layout_width="@dimen/control_bar_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/thumbnail_view_pos_margin" android:layout_alignParentBottom="true">
+        <com.pantech.app.vegacamera.ui.RotateImageView android:id="@id/thumbnail_view" android:background="@drawable/camera_photo_preview_default" android:layout_width="@dimen/thumbnail_size" android:layout_height="@dimen/thumbnail_size" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/thumbnail_frame" android:background="@drawable/photo_frame" android:clickable="true" android:layout_width="@dimen/thumbnail_size" android:layout_height="@dimen/thumbnail_size" android:layout_centerInParent="true" android:soundEffectsEnabled="false" android:contentDescription="@string/content_description_empty" />
+    </RelativeLayout>
+</RelativeLayout>

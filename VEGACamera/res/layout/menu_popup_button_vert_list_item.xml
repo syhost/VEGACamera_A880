@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/menu_popup_button_vert_list_margin_left" android:paddingRight="@dimen/menu_popup_button_vert_list_margin_right" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pantech.app.vegacamera.ui.RotateLayout android:id="@id/item_rotate_l" android:layout_width="fill_parent" android:layout_height="@dimen/menu_popup_button_vert_list_item_row_height">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="@dimen/menu_popup_button_vert_list_item_icon_size" android:layout_height="@dimen/menu_popup_button_vert_list_item_icon_size">
+                <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                <ImageView android:id="@id/current_image_selected" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/menu_popup_button_vert_list_item_text_size" android:textColor="@color/menu_popup_button_vert_list_item_text_color_normal" android:ellipsize="marquee" android:gravity="center" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="@color/menu_item_text_shadow_color" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+    </com.pantech.app.vegacamera.ui.RotateLayout>
+</LinearLayout>

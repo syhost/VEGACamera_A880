@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/menu_popup_dialog_list" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pantech.app.vegacamera.ui.RotateLayout android:id="@id/setting_dialog_rotate_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@drawable/camera_setting_popup_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:id="@id/popupDialogTitle" android:layout_width="fill_parent" android:layout_height="@dimen/menu_popup_settings_prefix_height" android:layout_marginLeft="@dimen/menu_popup_settings_margin_left">
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/menu_popup_dialog_title_text_size" android:textColor="@color/menu_popup_dialog_title_text_color" android:id="@id/setting_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_size_title" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/setting_dialog_cancel" android:layout_width="38.0dip" android:layout_height="31.0dip" android:src="@drawable/menu_settings_cancel" android:layout_alignParentRight="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <FrameLayout android:id="@id/setting_dialog_item_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ListView android:orientation="vertical" android:id="@id/DialogList" android:layout_width="@dimen/menu_popup_dialog_width" android:layout_height="wrap_content" android:divider="@drawable/camera_mode_list_line" android:dividerHeight="@dimen/menu_popup_text_list_line_height" android:choiceMode="singleChoice" />
+                </FrameLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </com.pantech.app.vegacamera.ui.RotateLayout>
+</FrameLayout>

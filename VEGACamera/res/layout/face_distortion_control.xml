@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/face_control_bar_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/ce_control_bar_margin_top" android:layout_marginBottom="@dimen/ce_control_bar_margin_bottom">
+        <com.pantech.app.vegacamera.ui.RotateLayout android:id="@id/face_image_l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/face_image" android:clickable="true" android:layout_width="@dimen/face_icon_width" android:layout_height="@dimen/face_icon_height" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                <ImageView android:id="@id/face_image_selected" android:visibility="invisible" android:layout_width="@dimen/face_icon_width" android:layout_height="@dimen/face_icon_height" android:src="@drawable/camera_effect_preview_sel" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+            </RelativeLayout>
+        </com.pantech.app.vegacamera.ui.RotateLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/ce_control_bar_width" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.pantech.app.vegacamera.ui.FaceDistortControl android:id="@id/face_control_bar" android:clickable="true" android:layout_width="32.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

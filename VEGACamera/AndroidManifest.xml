@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="400" android:versionName="17.01.062.0" package="com.pantech.app.vegacamera"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <original-package android:name="com.pantech.app.vegacamera" />
+    <uses-feature android:name="android.hardware.wifi.direct" />
+    <uses-feature android:name="android.hardware.nfc" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACTION_HEADSET_PLUG" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_VOICE_ACTION" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <application android:label="@string/camera_label" android:icon="@drawable/shortcut_camera_icon" android:debuggable="false" android:taskAffinity="" android:hardwareAccelerated="true" android:largeHeap="true">
+        <uses-library android:name="com.google.android.media.effects" android:required="false" />
+        <receiver android:name="com.pantech.app.vegacamera.CameraButtonIntentReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.CAMERA_BUTTON" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/ThemeCamera" android:name="com.pantech.app.vegacamera.Camera" android:taskAffinity="android.task.camera" android:clearTaskOnLaunch="true" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation|uiMode|screenSize|layoutDirection" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="pantech.SKYCamera.action.ATTACH_CONTENTS_CAMERA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/ThemeCamera" android:label="@string/video_camera_label" android:name="com.pantech.app.vegacamera.VideoCamera" android:taskAffinity="android.task.camcorder" android:clearTaskOnLaunch="true" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation|uiMode|screenSize|layoutDirection" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAMERA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAPTURE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="pantech.SKYCamera.action.ATTACH_CONTENTS_CAMCORDER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/ThemeBrowser" android:name="com.pantech.app.vegacamera.browser.Browser" android:taskAffinity="android.task.camera" android:configChanges="keyboardHidden|orientation|uiMode|screenSize|layoutDirection" android:windowSoftInputMode="stateAlwaysHidden|adjustPan" android:hardwareAccelerated="false" />
+        <receiver android:name="com.pantech.app.vegacamera.BootBroadcast">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="user_category" android:value="media" />
+        <receiver android:name="com.pantech.app.vegacamera.pst.PstCamera">
+            <intent-filter>
+                <action android:name="android.intent.action.PSTCAMERA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/ThemeCamera" android:name="com.pantech.app.vegacamera.pst.PstCameraTest" android:taskAffinity="android.task.camera">
+            <intent-filter>
+                <action android:name="android.intent.action.PSTCAMERATEST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/ThemeCamera" android:label="BestShot" android:name="com.pantech.app.vegacamera.picbest.BestShotEditActivity" android:taskAffinity="android.task.camera" android:configChanges="keyboardHidden|orientation|uiMode|screenSize|layoutDirection" android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/ThemeCamera" android:label="SelfShot" android:name="com.pantech.app.vegacamera.picbest.SelfShotEditActivity" android:taskAffinity="android.task.camera" android:configChanges="keyboardHidden|orientation|uiMode|screenSize|layoutDirection" android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.pantech.app.vegacamera.remoteshot.RemoteInitService" android:enabled="true">
+            <intent-filter>
+                <action android:name="com.pantech.app.vegacamera.remoteshot.RemoteInitService" />
+            </intent-filter>
+        </service>
+        <service android:name="com.pantech.app.vegacamera.remoteshot.wfd.RemoteTransferServiceWFD" android:enabled="true">
+            <intent-filter>
+                <action android:name="com.pantech.app.vegacamera.remoteshot.wfd.RemoteTransferServiceWFD" />
+            </intent-filter>
+        </service>
+        <intent-filter>
+            <action android:name="android.intent.action.SEND" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <package android:name="com.pantech.app.vegacamera" />
+            <data android:mimeType="image/*" />
+        </intent-filter>
+        <service android:name="com.pantech.app.vegacamera.aot.AOTCameraService" android:permission="android.permission.BIND_ALWAYS_ON_TOP">
+            <intent-filter>
+                <action android:name="android.alwaysontopservice.AlwaysOnTopService" />
+            </intent-filter>
+            <meta-data android:name="android.alwaysontopservice.aot" android:resource="@xml/method" />
+        </service>
+        <meta-data android:name="com.android.settings.InstalledAppDetails.Disable_ClearCache" android:value="true" />
+    </application>
+</manifest>

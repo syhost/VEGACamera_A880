@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pantech.app.vegacamera.ui.CameraTips android:id="@id/camera_tips" android:background="@color/tips_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:id="@id/camera_tip_land" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.pantech.app.vegacamera.ui.CameraTipsView android:id="@id/tip_view_land" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/camera_tip_mode_land" />
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/camera_tip_photoview_land" />
+        </com.pantech.app.vegacamera.ui.CameraTipsView>
+        <include android:id="@id/camera_tip_landscape" android:layout_width="fill_parent" android:layout_height="69.0dip" layout="@layout/camera_tips_land" />
+    </FrameLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/camera_tip_port" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.pantech.app.vegacamera.ui.CameraTipsView android:id="@id/tip_view_port" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/camera_tip_mode_port" />
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/camera_tip_photoview_port" />
+        </com.pantech.app.vegacamera.ui.CameraTipsView>
+        <include android:id="@id/camera_tip_portrait" android:layout_width="fill_parent" android:layout_height="170.0dip" layout="@layout/camera_tips_port" />
+    </FrameLayout>
+</com.pantech.app.vegacamera.ui.CameraTips>

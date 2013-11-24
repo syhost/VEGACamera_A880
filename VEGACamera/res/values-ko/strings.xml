@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="flash_mode_camera_auto">자동</string>
+    <string name="flash_mode_camera_on">켜짐</string>
+    <string name="flash_mode_camera_off">꺼짐</string>
+    <string name="flash_mode_camera_light">라이트</string>
+    <string name="flash_mode_camera_title">플래시</string>
+    <string name="camera_id_back">후면</string>
+    <string name="camera_id_front">전면</string>
+    <string name="camera_id_title">전환</string>
+    <string name="effect_group_title">효과</string>
+    <string name="effect_none_on">해제</string>
+    <string name="effect_none_off">설정</string>
+    <string name="effect_none_title">효과없음</string>
+    <string name="effect_water_color_pencil_on">설정</string>
+    <string name="effect_water_color_pencil_off">해제</string>
+    <string name="effect_water_color_pencil_title">수채색연필</string>
+    <string name="effect_cartoon_on">설정</string>
+    <string name="effect_cartoon_off">해제</string>
+    <string name="effect_cartoon_title">카툰</string>
+    <string name="effect_poster_color_on">설정</string>
+    <string name="effect_poster_color_off">해제</string>
+    <string name="effect_poster_color_title">컬러포스터</string>
+    <string name="effect_poster_b_n_w_on">설정</string>
+    <string name="effect_poster_b_n_w_off">해제</string>
+    <string name="effect_poster_b_n_w_title">흑백포스터</string>
+    <string name="effect_dot_color_on">설정</string>
+    <string name="effect_dot_color_off">해제</string>
+    <string name="effect_dot_color_title">컬러도트</string>
+    <string name="effect_dot_b_n_w_on">설정</string>
+    <string name="effect_dot_b_n_w_off">해제</string>
+    <string name="effect_dot_b_n_w_title">흑백도트</string>
+    <string name="effect_neon_on">설정</string>
+    <string name="effect_neon_off">해제</string>
+    <string name="effect_neon_title">네온</string>
+    <string name="effect_embossing_on">설정</string>
+    <string name="effect_embossing_off">해제</string>
+    <string name="effect_embossing_title">엠보싱</string>
+    <string name="effect_color_tone_none">해제</string>
+    <string name="effect_color_tone_mono">그레이</string>
+    <string name="effect_color_tone_sepia">세피아</string>
+    <string name="effect_color_tone_aqua">아쿠아</string>
+    <string name="effect_color_tone_title">컬러톤</string>
+    <string name="effect_color_extraction_off">해제</string>
+    <string name="effect_color_extraction_touch">터치</string>
+    <string name="effect_color_extraction_red">빨강</string>
+    <string name="effect_color_extraction_green">초록</string>
+    <string name="effect_color_extraction_blue">파랑</string>
+    <string name="effect_color_extraction_yellow">노랑</string>
+    <string name="effect_color_extraction_title">컬러포인트</string>
+    <string name="mode_group_title">모드</string>
+    <string name="mode_normal_on">설정</string>
+    <string name="mode_normal_off">해제</string>
+    <string name="mode_normal_title">일반</string>
+    <string name="mode_normal_tip_text">별도 설정 없이 자동으로 포커스와 밝기를 조절하여 촬영합니다.</string>
+    <string name="mode_intelligent_off">해제</string>
+    <string name="mode_intelligent_auto">Auto</string>
+    <string name="mode_intelligent_macro">접사</string>
+    <string name="mode_intelligent_outdoor">풍경</string>
+    <string name="mode_intelligent_indoor">실내</string>
+    <string name="mode_intelligent_sunset">노을</string>
+    <string name="mode_intelligent_night">야경</string>
+    <string name="mode_intelligent_portrait">인물</string>
+    <string name="mode_intelligent_flare_portrait">역광인물</string>
+    <string name="mode_intelligent_night_portrait">야간인물</string>
+    <string name="mode_intelligent_group_portrait">인물단체</string>
+    <string name="mode_intelligent_title">인텔리전트</string>
+    <string name="mode_intelligent_auto_tip">촬영 장면을 자동으로 인식하여 옵션 조절 없이 최적화된 사진을 촬영 합니다.</string>
+    <string name="mode_intelligent_macro_tip">가까이 있는 사물을 선명하게 촬영 합니다.</string>
+    <string name="mode_intelligent_outdoor_tip">야외에서 풍경이 선명하게 보이도록 촬영 합니다.</string>
+    <string name="mode_intelligent_indoor_tip">실내 조명에 적합하고 선명하게 촬영 합니다.</string>
+    <string name="mode_intelligent_sunset_tip">붉은 노을 색상을 강조하여 풍부한 색감의 하늘을 촬영합니다.</string>
+    <string name="mode_intelligent_night_tip">야간이나 저조도에서도 플래시를 켜지 않고 밝고 선명하게 촬영 합니다.</string>
+    <string name="mode_intelligent_portrait_tip">얼굴의 잡티를 제거하고 피부색을 밝게 표현하여 부드럽게 촬영 합니다.</string>
+    <string name="mode_intelligent_flare_portrait_tip">역광에서 인물촬영에 적절한 노출로 조절하여 촬영합니다.</string>
+    <string name="mode_intelligent_night_portrait_tip">야간에 인물 촬영에 적합한 노출로 얼굴이 밝게 나오도록 촬영합니다.</string>
+    <string name="mode_intelligent_group_portrait_tip">단체샷 촬영 시 베스트페이스모드로 연동하여 원하는 표정을 선택할 수 있습니다.</string>
+    <string name="mode_best_face_on">설정</string>
+    <string name="mode_best_face_off">해제</string>
+    <string name="mode_best_face_title">베스트페이스</string>
+    <string name="mode_best_face_tip_text">5장의 사진을 연속으로 촬영하고 각 인물들의 원하는 표정을 선택하여 한장의 사진으로 만듭니다.</string>
+    <string name="mode_remote_on">설정</string>
+    <string name="mode_remote_off">해제</string>
+    <string name="mode_remote_title">리모트</string>
+    <string name="mode_remote_tip_text">"다른 스마트폰과 뒷면을 맞대어 연결하면,
+원격으로 사진을 촬영 할 수 있습니다."</string>
+    <string name="mode_self_on">설정</string>
+    <string name="mode_self_off">해제</string>
+    <string name="mode_self_title">후면 셀카</string>
+    <string name="mode_self_tip_text">후면 카메라를 사용하여 전면 카메라보다 고화질의 셀프샷으로 촬영합니다.</string>
+    <string name="mode_hdr_on">설정</string>
+    <string name="mode_hdr_off">해제</string>
+    <string name="mode_hdr_title">HDR</string>
+    <string name="mode_hdr_tip_text">너무 밝거나 어두운 면이 없도록 자동으로 빛의 밸런스를 맞추어 풍부한 느낌으로 촬영합니다.</string>
+    <string name="mode_beauty_on">설정</string>
+    <string name="mode_beauty_off">해제</string>
+    <string name="mode_beauty_title">뷰티</string>
+    <string name="mode_beauty_tip_text">"인물 사진 촬영 시 얼굴을 밝게 하고,
+잡티를 자동으로 보정하여 촬영합니다."</string>
+    <string name="mode_text_off">해제</string>
+    <string name="mode_text_color">컬러</string>
+    <string name="mode_text_mono">흑백</string>
+    <string name="mode_text_board">칠판</string>
+    <string name="mode_text_title">노트</string>
+    <string name="mode_text_color_tip">다양한 색으로 필기한 노트를 컬러감을 살려 촬영합니다.</string>
+    <string name="mode_text_mono_tip">필기한 노트를 흑백으로 대비를 높여 더욱 선명하게 촬영합니다.</string>
+    <string name="mode_text_board_tip">칠판과 같이 어두운 배경에 밝은 색으로 적힌 필기를 선명하게 촬영합니다.</string>
+    <string name="mode_panorama_on">설정</string>
+    <string name="mode_panorama_off">해제</string>
+    <string name="mode_panorama_title">파노라마</string>
+    <string name="mode_panorama_tip_text">수평 방향으로 스마트폰을 천천히 움직여 가로로 긴 파노라마 사진을 촬영합니다.</string>
+    <string name="mode_video_timelapse_0">해제</string>
+    <string name="mode_video_timelapse_300">조금빠름</string>
+    <string name="mode_video_timelapse_1000">빠름</string>
+    <string name="mode_video_timelapse_5000">매우빠름</string>
+    <string name="mode_video_timelapse_title">스피드 모션</string>
+    <string name="mode_video_timelapse_tip_text">움직이는 물체를 원래의 속도보다 빠르게 녹화합니다. 노을과 같이 느리게 변화하는 장면도 재생시 속도감 있게 표현합니다.</string>
+    <string name="mode_face_effect_none">해제</string>
+    <string name="mode_face_effect_squeeze">찌그리기</string>
+    <string name="mode_face_effect_bigeyes">눈 크게</string>
+    <string name="mode_face_effect_smalleyes">눈 작게</string>
+    <string name="mode_face_effect_bigmouth">입 크게</string>
+    <string name="mode_face_effect_smallmouth">입 작게</string>
+    <string name="mode_face_effect_bignose">코 크게</string>
+    <string name="mode_face_effect_title">재밌는 얼굴</string>
+    <string name="mode_face_effect_tip_text">"실시간으로 얼굴에 효과를 주어 재미있는
+모습으로 사진이나 동영상을 촬영합니다."</string>
+    <string name="setting_group_title">설정</string>
+    <string name="setting_help_focus_title">포커스</string>
+    <string name="setting_help_focus_tips">"화면을 터치하여 원하는 곳에 포커스를 맞추세요.
+포커스락 : 화면을 오래 누르고 있으면 포커스락이 설정되고, 동시에 노출을 변경할 수 있습니다. 해제하려면 프리뷰 화면을 눌러주세요."</string>
+    <string name="setting_help_timer_title">타이머</string>
+    <string name="setting_help_timer_tips">"설정한 시간이 지난 후 촬영됩니다.
+카메라 촬영버튼을 화면의 안쪽으로 당겨 간편하게 타이머를 설정할 수 있습니다."</string>
+    <string name="setting_help_photoview_title">포토뷰</string>
+    <string name="setting_help_photoview_tips">화면을 왼쪽으로 밀어 촬영한 사진을 다시 볼 수 있습니다.</string>
+    <string name="setting_help_geotag_title">위치태그</string>
+    <string name="setting_help_geotag_tips">사진이나 동영상이 촬영된 위치를 저장합니다.</string>
+    <string name="setting_help_low_light_title">저조도 자동인식</string>
+    <string name="setting_help_low_light_tips">저조도에서 플래시 없이 자동으로 밝고 선명한 사진을 촬영합니다. 동영상 촬영에는 기능을 사용할 수 없습니다.</string>
+    <string name="setting_help_storage_title">저장위치</string>
+    <string name="setting_help_storage_tips">설정한 위치에 촬영된 사진이 저장됩니다. SD카드를 삽입하여 저장위치를 변경할 수 있습니다.</string>
+    <string name="setting_help_voiceshot_title">음성인식</string>
+    <string name="setting_help_voiceshot_tips">홈>설정에서 음성인식 항목을 켜고 사진을 촬영해 보세요. 자세한 음성명령 단어를 확인하려면 음성인식 설정의 앱 제어 동작어를 확인하거나 카메라 화면에서 음성으로 “도움말”을 인식시키세요</string>
+    <string name="setting_help_iso_title">ISO</string>
+    <string name="setting_help_iso_tips">어두운 곳에서는 감도를 높게 설정하여 촬영하세요. 감도가 높을수록 사진에 노이즈가 생길 수 있습니다.</string>
+    <string name="setting_help_metering_title">측광</string>
+    <string name="setting_help_metering_tips">"빛의 환경에 따라 적절한 측광모드를 설정하여 촬영하세요.
+전체 : 화면 전체 영역의 밝기를 평균을 내어 화면에 보여줍니다.
+중앙 : 화면의 중앙의 밝기를 기준으로 측광을 조절합니다.
+스팟 : 포커스된 영역에 맞춰 측광을 고정시킵니다."</string>
+    <string name="setting_help_voice_rec_title">음성 녹화</string>
+    <string name="setting_help_voice_rec_tips">녹화 영상에 음성을 추가합니다. 무음 영상으로 녹화하려면 설정을 끄세요.</string>
+    <string name="setting_help_reset_title">초기화</string>
+    <string name="setting_help_reset_tips">초기 설정값으로 되돌려줍니다.</string>
+    <string name="setting_help_reset_confirm">설정 내 옵션이 초기화됩니다.</string>
+    <string name="setting_size_title">해상도</string>
+    <string name="setting_picture_size_title">해상도</string>
+    <string name="setting_record_size_title">해상도</string>
+    <string name="setting_timershot_off">해제</string>
+    <string name="setting_timershot_03">3 초</string>
+    <string name="setting_timershot_05">5 초</string>
+    <string name="setting_timershot_10">10 초</string>
+    <string name="setting_timershot_title">타이머</string>
+    <string name="setting_ev_title">밝기</string>
+    <string name="setting_wb_auto">자동</string>
+    <string name="setting_wb_incandescent">백열등</string>
+    <string name="setting_wb_daylight">야외</string>
+    <string name="setting_wb_fluorescent">형광등</string>
+    <string name="setting_wb_cloudy">흐린날</string>
+    <string name="setting_photometry_all">전체</string>
+    <string name="setting_photometry_center">중앙</string>
+    <string name="setting_photometry_spot">스팟</string>
+    <string name="setting_photometry_title">측광</string>
+    <string name="setting_grid_type_1">3분할</string>
+    <string name="setting_grid_type_2">황금비율</string>
+    <string name="setting_grid_off">해제</string>
+    <string name="setting_grid_title">안내선</string>
+    <string name="setting_goto_viewer_on">설정</string>
+    <string name="setting_goto_viewer_3sec">3 초</string>
+    <string name="setting_goto_viewer_5sec">5 초</string>
+    <string name="setting_goto_viewer_off">해제</string>
+    <string name="setting_goto_viewer_title">촬영후 보기</string>
+    <string name="setting_focus_mode_touch">터치 포커스</string>
+    <string name="setting_focus_mode_object_tracking">트래킹 포커스</string>
+    <string name="setting_focus_mode_title">포커스</string>
+    <string name="setting_quality_super_fine">아주 좋음</string>
+    <string name="setting_quality_fine">좋음</string>
+    <string name="setting_quality_normal">보통</string>
+    <string name="setting_quality_title">화질</string>
+    <string name="setting_anti_banding_title">왜곡 방지</string>
+    <string name="setting_gps_info_on">설정</string>
+    <string name="setting_gps_info_off">해제</string>
+    <string name="setting_gps_info_title">위치태그</string>
+    <string name="setting_low_light_on">설정</string>
+    <string name="setting_low_light_off">해제</string>
+    <string name="setting_low_light_title">저조도 자동인식</string>
+    <string name="setting_continuous_shot_on">설정</string>
+    <string name="setting_continuous_shot_off">해제</string>
+    <string name="setting_continuous_shot_title">연속촬영</string>
+    <string name="setting_mirror_on">설정</string>
+    <string name="setting_mirror_off">해제</string>
+    <string name="setting_mirror_title">좌우반전</string>
+    <string name="setting_voice_record_on">설정</string>
+    <string name="setting_voice_record_off">해제</string>
+    <string name="setting_voice_record_title">음성녹화</string>
+    <string name="setting_shutter_sound_on">설정</string>
+    <string name="setting_shutter_sound_off">해제</string>
+    <string name="setting_shutter_sound_title">촬영음</string>
+    <string name="setting_anti_shake_on">설정</string>
+    <string name="setting_anti_shake_off">해제</string>
+    <string name="setting_anti_shake_title">손떨림방지</string>
+    <string name="setting_voice_recognition_on">설정</string>
+    <string name="setting_voice_recognition_off">해제</string>
+    <string name="setting_voice_recognition_title">음성인식</string>
+    <string name="setting_reset_title">초기화</string>
+    <string name="setting_storage_location_internal">내장</string>
+    <string name="setting_storage_location_external">SD</string>
+    <string name="setting_storage_location_title">저장위치</string>
+    <string name="setting_help_title">도움말</string>
+    <string name="setting_collect_type_advance">고급설정</string>
+    <string name="setting_collect_type_normal">일반설정</string>
+    <string name="setting_collect_type_advance_btn">고급</string>
+    <string name="setting_collect_type_normal_btn">일반</string>
+    <string name="sensor_switch">카메라 전환중…</string>
+    <string name="wait_minute">잠시만 기다려 주세요.</string>
+    <string name="popup_title_question">확인</string>
+    <string name="popup_title_confirm">확인</string>
+    <string name="popup_title_info">알림</string>
+    <string name="popup_button_yes">예</string>
+    <string name="popup_button_no">아니요</string>
+    <string name="uBox_title_text">확인</string>
+    <string name="uBox_check_text">다시 보지 않음</string>
+    <string name="uBox_message_text">"데이터 네트워크 사용시 
+가입하신 요금제에 따라 
+데이터 통화료가 
+발생할 수 있습니다."</string>
+    <string name="camera_label">카메라</string>
+    <string name="video_camera_label">캠코더</string>
+    <string name="pano_dialog_title">파노라마</string>
+    <string name="gallery_camera_bucket_name">카메라 사진</string>
+    <string name="gallery_camera_videos_bucket_name">카메라 동영상</string>
+    <string name="usb_connected">메모리가 사용중이므로 카메라를 종료합니다.</string>
+    <string name="spaceIsLow_content_int">내부저장공간이 부족하여 카메라를 사용할 수 없습니다.</string>
+    <string name="spaceIsLow_content_ext">SD 카드 저장공간이 부족하여 카메라를 사용할 수 없습니다.</string>
+    <string name="cannot_connect_camera">카메라를 동작할 수 없으므로 카메라를 종료합니다.</string>
+    <string name="cannot_exec_camera_during_phonecall">통화중 동영상 촬영을 실행할 수 없어 종료합니다.</string>
+    <string name="cannot_exec_camera_here">사용을 제한하여 카메라를 실행할 수 없습니다. 확인 후 다시 시도해주세요.</string>
+    <string name="cannot_exec_camera_disabled_camera">허가되지 않은 경로이므로 카메라를 실행할 수 없습니다.</string>
+    <string name="cannot_exec_camera_app_crash">다른 경로에서 카메라가 실행되고 있습니다. 확인 후 다시 시도해주세요.</string>
+    <string name="preparing_sd">미디어 스캔중…</string>
+    <string name="access_sd_fail">SD카드가 인식되지 않아서 카메라를 종료합니다.</string>
+    <string name="wait">잠시만 기다려 주세요…</string>
+    <string name="accessfail">GPS정보를 수신할 수 없습니다.</string>
+    <string name="battery_low">배터리가 부족하여 5초후에 카메라를 종료합니다. 촬영 중 영상은 저장됩니다.</string>
+    <string name="battery_low_before_preview">배터리가 부족하여 카메라를 종료합니다.</string>
+    <string name="go_over_size_limit">첨부 용량을 초과하여 카메라를 종료합니다.</string>
+    <string name="set_disable">장면모드가 일반이 아닐 경우 손떨림 방지, 측광 을 사용할 수 없습니다.</string>
+    <string name="set_disable_front">전면 카메라에서는 손떨림 방지 를 사용할 수 없습니다.</string>
+    <string name="fail_to_save_jpeg">저장에 실패하여 카메라를 종료합니다.</string>
+    <string name="zoom_unavailable">컬러포인트 모드에서는 줌 기능을 사용할 수 없습니다.</string>
+    <string name="disable_gallery">"갤러리가 사용안함으로 설정되어 진입이 불가합니다.
+애플리케이션 설정을 확인하세요."</string>
+    <string name="cannot_exec_recording_during_phonecall">통화 중에는 동영상 촬영을 할 수 없습니다.</string>
+    <string name="storageUnavailable_changedStorage">현재 저장위치가 사용 불가능 하여 다른 저장위치로 자동 변경합니다.</string>
+    <string name="storageLowMemorySD_changedStorage">SD카드 용량이 부족하여 다른 저장위치로 자동 변경합니다.</string>
+    <string name="storageLowMemoryInt_changedStorage">내장 용량이 부족하여 다른 저장위치로 자동 변경합니다.</string>
+    <string name="v_touch_camera">V 터치 - 촬영합니다.</string>
+    <string name="v_touch_videocamera_start">V 터치 - 녹화합니다.</string>
+    <string name="v_touch_videocamera_end">V 터치 - 녹화되었습니다.</string>
+    <string name="v_touch_panorama_start">V 터치 - 촬영을 시작합니다.</string>
+    <string name="v_touch_panorama_end">V 터치 - 촬영을 중지합니다.</string>
+    <string name="zoom_in_max">최대 확대 상태입니다. 더 이상 확대할 수 없습니다.</string>
+    <string name="zoom_out_max">기본 화면 상태입니다. 더 이상 축소할 수 없습니다.</string>
+    <string name="burstshot_change_resolution">버스트 촬영을 위해 5M로 사이즈를 변경합니다.</string>
+    <string name="focus_lock">"포커스가 고정되었습니다. 
+화면을 터치하면 노출이 설정됩니다. 
+해제하려면 포커스락 아이콘을 눌러주세요."</string>
+    <string name="geotag_init_popup">"사진이나 동영상이 촬영 된 위치를
+저장 할 수 있습니다.
+촬영 위치를 저장 하시겠습니까?"</string>
+    <string name="hdr_save">저장</string>
+    <string name="hdr_save_processing">저장중 ....</string>
+    <string name="shutter_timer_tutorial_title">당겨서 찰칵</string>
+    <string name="shutter_timer_tutorial_sub">촬영키를 화면의 안쪽으로 당겨 일회적으로 타이머를 사용할 수 있습니다.</string>
+    <string name="browser_header">저장위치</string>
+    <string name="browser_ok">확인</string>
+    <string name="browser_cancel">취소</string>
+    <string name="browser_internal_default">내부</string>
+    <string name="browser_external_default">외부</string>
+    <string name="recoder_cancel">녹화가 취소되었습니다.</string>
+    <string name="recoder_cancel_do_later">"동영상을 녹화할 수 없습니다.
+잠시 후 다시 시도해 주세요."</string>
+    <string name="recoder_fail">녹화를 실패 하였습니다.</string>
+    <string name="capture_liveshot">캡처되었습니다. 갤러리에 이미지가 저장되었습니다.</string>
+    <string name="error_liveshot">캡처 실행 중 오류가 발생하였습니다.</string>
+    <string name="short_to_save">녹화된 영상이 너무 짧아 저장할 수 없습니다.</string>
+    <string name="timelapse_cancel">스톱모션 설정값도 함께 해제됩니다.</string>
+    <string name="timelapseeffect_cancel">스톱모션효과 설정값도 함께 해제됩니다.</string>
+    <string name="video_reach_size_limit">크기 한도에 도달했습니다.</string>
+    <string name="effects_resolution">효과 적용 가능한 해상도로 변경됩니다.</string>
+    <string name="cannot_set_effectRecordng">녹화가 실패 하였습니다. 지원하지 않는 녹화 포맷입니다.</string>
+    <string name="mms_size_popup_front">MMS전송은 최대</string>
+    <string name="mms_size_popup_back">Byte이내 가능합니다.</string>
+    <string name="attach_size_popup_front">전송용 녹화는</string>
+    <string name="attach_size_popup_back">Byte까지 가능 합니다.</string>
+    <string name="temperature_restrict_lcd">온도 상승을 막기 위해서 화면의 밝기를 조정합니다.</string>
+    <string name="temperature_restrict_flash">온도 상승을 막기 위해서 플래시를 끕니다.</string>
+    <string name="temperature_restrict_recording_stopped">"온도가 높아 녹화를 중단합니다.
+온도가 낮아지면 다시 시도해주세요"</string>
+    <string name="temperature_restrict_recording_unavailable">"온도가 높아 녹화를 제한합니다.
+온도가 낮아지면 다시 시도해주세요"</string>
+    <string name="temperature_restrict_capture_unavailable">"온도가 높아 사진촬영을 제한합니다.
+온도가 낮아지면 다시 시도해주세요"</string>
+    <string name="no_save_ok_btn">사진을 저장하지 않고 종료 하시겠습니까?</string>
+    <string name="bestshot_change_orientation">촬영 도중 단말 방향이 변경되어 촬영 된 사진을 편집할 수 없습니다.</string>
+    <string name="bestshot_change_resolution">베스트 페이스 촬영을 위해 8M로 사이즈를 변경합니다.</string>
+    <string name="burstshot_noti_no_face">"얼굴이 인식되지 않았습니다. 
+모드 동작을 위해 카메라를 바라보고 촬영하세요."</string>
+    <string name="picbest_processing">진행 중…</string>
+    <string name="picbest_save_successed">사진이 저장 되었습니다.</string>
+    <string name="picself_save_successed">선택된 사진이 저장되었습니다.</string>
+    <string name="best_cling_title">베스트페이스 만들기</string>
+    <string name="best_cling_content">베스트 페이스로 최고의 순간을 만들어보세요</string>
+    <string name="face_cling_title">얼굴 선택하기</string>
+    <string name="face_cling_content">인식된 얼굴을 선택하세요</string>
+    <string name="cling_next">다음</string>
+    <string name="cling_backtostart">이전</string>
+    <string name="cling_dismiss">완료</string>
+    <string name="cling_save">사진 저장</string>
+    <string name="change_person">"사각형을 눌러 
+인물을 바꿔보세요"</string>
+    <string name="cling_saving_done">"모든 수정을 
+완료합니다"</string>
+    <string name="middle_change_face_title">얼굴 바꾸기</string>
+    <string name="middle_change_face_content">"작은 원을 눌러 
+표정을 바꿔보세요"</string>
+    <string name="port_best_cling_content">"베스트 페이스로 
+최고의 순간을 만들어보세요"</string>
+    <string name="details_ok">확인</string>
+    <string name="panorama_start">원하는 방향으로 단말을 움직이면 촬영이 시작됩니다.</string>
+    <string name="pano_too_fast_prompt">단말을 천천히 움직여 주세요.</string>
+    <string name="pano_dialog_prepare_preview">파노라마 이미지 생성중입니다.</string>
+    <string name="pano_dialog_panorama_failed">파노라마 이미지 생성에 실패했습니다.</string>
+    <string name="pano_review_saving_indication_str">저장중 …</string>
+    <string name="capture_cancel">촬영이 취소되었습니다.</string>
+    <string name="pano_direction_change">파노라마 촬영은 동일한 방향으로 촬영해야 합니다.</string>
+    <string name="speech_help">"음성으로 촬영 동작 가능합니다.
+Go, Ok, Capture, Take,
+Take picture, Take photo, Smile, Cheese, Say cheese,
+Shoot, 1-2-3, 3-2-1"</string>
+    <string name="speech_net_connect_fail">"네트워크에
+연결할 수 없습니다.
+연결 상태를 확인하세요."</string>
+    <string name="speech_server_error">"서버 오류가
+발생하였습니다.
+잠시 후
+다시 시도해 주세요."</string>
+    <string name="speech_unknown_error">"알 수 없는 오류가
+발생하였습니다.
+잠시 후
+다시 시도해 주세요."</string>
+    <string name="speech_no_image">"업로드할 이미지가
+없습니다."</string>
+    <string name="speech_set_menu">메뉴>설정 에서</string>
+    <string name="speech_set_menu_nl">음성 인식 기능을</string>
+    <string name="speech_set_menu_nl2">설정하세요.</string>
+    <string name="local_voice_note_top_title">카메라 단어장</string>
+    <string name="local_voice_note_title_capture">사진 찍기</string>
+    <string name="local_voice_note_title_record">동영상 촬영</string>
+    <string name="local_voice_note_title_change">전후면 카메라 전환하기</string>
+    <string name="local_voice_note_title_zoom">화면 확대 축소하기</string>
+    <string name="local_voice_note_title_gallery">촬영한 사진을 갤러리에서 보기</string>
+    <string name="local_voice_note_ps">설정 > 음성인식 내 도움말에서 더 많은 단어를 확인할 수 있습니다.</string>
+    <string name="local_voice_recognition_unavailable_on_recording">동영상 촬영중에는 음성인식 기능을 사용할 수 없습니다.</string>
+    <string name="review_cancel">취소</string>
+    <string name="review_ok">확인</string>
+    <string name="alertmediaerror">"플레이 할 수 없습니다.
+"</string>
+    <string name="edit">편집</string>
+    <string name="transfer">전송</string>
+    <string name="delete">삭제</string>
+    <string name="facetagging">얼굴태그</string>
+    <string name="deleted">삭제됨</string>
+    <string name="undo">실행취소</string>
+    <string name="goto_quickview">저장중</string>
+    <string name="delete_picture_how">사진을 위, 아래로 밀어 삭제할 수 있습니다.</string>
+    <string name="nfc_alert_dialog_message">"NFC가 꺼져있습니다.
+리모트샷과 통신을 위해 NFC 를 켭니다."</string>
+    <string name="nfc_dialog_alert_title">NFC 설정</string>
+    <string name="nfc_turn_on">NFC가 켜졌습니다.</string>
+    <string name="nfc_confim">확인</string>
+    <string name="nfc_cancel">취소</string>
+    <string name="wifi_dialog_alert_title">확인</string>
+    <string name="wifi_alert_dialog_message">"Wi-Fi 혹은 Hotspot에 연결되어
+있습니다. 연결을 끊고 리모콘을
+실행하시겠습니까?"</string>
+    <string name="nfc_help_text">"연결할 스마트폰의
+'읽기쓰기/P2P'(NFC) 설정을 켜고,
+뒷면을 맞댄 후 화면을 눌러 연결하세요."</string>
+    <string name="back_pressed">"'이전' 키를 한번 더 누르면 연결이 중단되며 카메라 앱이 종료됩니다."</string>
+    <string name="block_back_press">연결 중입니다. 잠시 기다려주세요.</string>
+    <string name="reconnect_title_text">리모트 샷 연결 중단</string>
+    <string name="reconnect_text">네트워크가 불안정하여 연결이 중단되었습니다.</string>
+    <string name="popup_ok">확인</string>
+    <string name="connecting_text">리모트 샷 연결 중…</string>
+    <string name="connection_success">연결되었습니다.</string>
+    <string name="connection_fail">연결되지 않았습니다. 다시 시도해주세요.</string>
+    <string name="disconnect_camera_mode">리모트 샷 연결이 중단되었습니다.</string>
+    <string name="timer_unavailable">리모트 샷 모드에서는 타이머 기능을 사용할 수 없습니다.</string>
+    <string name="remocon_pause_state_check">리모트 샷 연결이 원할하지 않습니다. 리모트 샷 기기 상태를 확인해 주시기 바랍니다.</string>
+    <string name="remocon_resume_state_check">카메라 리모트 샷 모드가 정상적으로 동작하고 있습니다.</string>
+    <string name="remocon_warning_title">리모트 샷 연결 중단</string>
+    <string name="remocon_camcorder_warning_msg">"캠코더로 전환하면 리모트 샷 연결이 중단됩니다.
+연결을 중단하시겠습니까?"</string>
+    <string name="remocon_panorama_warning_msg">"파노라마로 전환하면 리모트 샷 연결이 중단됩니다.
+연결을 중단하시겠습니까?"</string>
+    <string name="connection_cancelld">연결이 취소되었습니다.</string>
+    <string name="remocon_image_save">촬영중...</string>
+    <string name="remocon_image_fail">촬영을 실패 하였습니다.</string>
+    <string name="wifi_ap_disconnect">"리모트 샷 연결을 위해 WiFi 해제 후 WiFi-Direct로 재연결합니다.
+WiFi-Direct 연결 중에는 Wi-Fi AP 검색 및 연결을 할 수 없습니다."</string>
+    <string name="album">앨범</string>
+    <string name="popup_btn_yes">예</string>
+    <string name="popup_btn_no">아니요</string>
+    <string name="tuto_title_main_text">두 대의 스마트폰 연결하기</string>
+    <string name="tuto_title_sub_text">리모트 샷 모드에서 다른 스마트폰과 연결하여 원격으로 사진을 촬영할 수 있습니다. 리모트 샷 모드를 유지한 상태에서,</string>
+    <string name="tuto_center_first_text">연결할 스마트폰의 NFC, 읽기 쓰기 및 P2P 수신 설정을 켜고,</string>
+    <string name="tuto_center_second_text">두 스마트폰의 배터리 덮개 부분을 서로 맞대어 연결하세요.</string>
+    <string name="tuto_center_third_text">카메라가 실행된 스마트폰의 화면을 터치하면 연결이 시작됩니다.</string>
+    <string name="tuto_center_second_land_text">두 스마트폰의 배터리 덮개 부분을 서로 맞대어 연결하세요. 카메라가 실행된 스마트폰의 화면을 터치하면 연결이 시작됩니다.</string>
+    <string name="tuto_bottom_help_text">*Wi-Fi 다이렉트를 이용하며 요금이 부과되지 않습니다.</string>
+    <string name="tuto_bottom_help_text_sec">*Android Jelly Bean 버전 이상의 NFC 동작이 가능한 스마트폰만 연결 가능합니다.</string>
+    <string name="tuto_sec_title_main_text">VEGA 리모트 샷 앱 조작하기</string>
+    <string name="tuto_sec_title_sub_text">연결을 시작하면 VEGA 리모트 샷 앱이 자동으로 실행됩니다.</string>
+    <string name="tuto_sec_title_third_text">앱이 설치되어 있지 않은 경우 Play 스토어 다운로드 페이지로 자동 연결됩니다.</string>
+    <string name="tuto_sec_center_second_text">연결된 VEGA 리모트 샷 앱에서 촬영버튼을 눌러, 카메라에 보이는 영상을 촬영하세요.</string>
+    <string name="tuto_sec_bottom_second_text">"플래시, 해상도, 포커스, 줌, 촬영이미지 확인을 원격으로
+조작할 수 있습니다."</string>
+    <string name="tuto_third_text_01">연결이 잘 되지 않을 때는?</string>
+    <string name="tuto_third_text_02">"두 스마트폰이 잘 연결되지 않을때는 Wi-Fi 설정을 끈 후 다시 켜세요.
+또한 읽기쓰기/P2P 설정이 켜져 있는지 확인하세요."</string>
+    <string name="tuto_third_text_03">"두 스마트폰이 연결되었을 때는 Wi-Fi 설정을 바꾸지 마세요.
+연결이 해제될 수 있습니다."</string>
+    <string name="tuto_third_text_04">연결할 두 스마트폰 사이에 벽과 같은 큰 장애물이 있거나 두 스마트폰의 통신거리가 너무 먼 경우에 연결이 끊길 수 있습니다.</string>
+    <string name="tuto_third_text_05">앱을 종료하거나, 카메라 앱의 모드를 바꾸면 연결이 종료됩니다.</string>
+    <string name="tuto_next">다음</string>
+    <string name="tuto_prev">이전</string>
+    <string name="tuto_complete">완료</string>
+    <string name="first_page_num">1 / 3</string>
+    <string name="sec_page_num">2 / 3</string>
+    <string name="third_page_num">3 / 3</string>
+    <string name="aot_finish_aotcamera">다른 카메라 앱의 실행으로 미니 카메라가 종료됩니다.</string>
+    <string name="aot_unavailable_aotcamera_while_other_camera">다른 카메라 앱 실행 중에는 미니 카메라를 실행할 수 없습니다.</string>
+    <string name="aot_unavailable_aotcamera_while_media">미디어 실행 중에는 미니 카메라를 실행할 수 없습니다.</string>
+    <string name="aot_unavailable_aotcamera_while_gaze_recognition">시선인식 실행 중에는 미니카메라를 실행할 수 없습니다.</string>
+    <string name="selfguide_text">"화면을 뒤로 돌려 후면 카메라를 바라보고 
+촬영하세요. 화면 어느 곳을 눌러도 촬영 됩니다."</string>
+    <string name="tips_mode_title">모드</string>
+    <string name="tips_mode_sub">다양한 촬영모드를 사용하여 사진과 동영상을 촬영할 수 있습니다.</string>
+    <string name="tips_timer_title">당겨서 찰칵</string>
+    <string name="tips_timer_sub">카메라 촬영버튼을 화면의 안쪽으로 당겨 간편하게 타이머를 설정할 수 있습니다.</string>
+    <string name="tips_effect_title">효과</string>
+    <string name="tips_effect_sub">필터 효과를 사용하여 색다른 사진과 동영상을 촬영할 수 있습니다.</string>
+    <string name="tips_dualshot_title">듀얼샷 모드</string>
+    <string name="tips_dualshot_sub">모드에서 듀얼샷으로 촬영해보세요. 전후면 카메라를 동시에 사용하여 양방향으로 사진이나 동영상을 촬영합니다.</string>
+    <string name="tips_photoview_title">포토뷰</string>
+    <string name="tips_photoview_sub">화면을 왼쪽으로 밀어 촬영한 사진을 다시 볼 수 있습니다.</string>
+    <string name="text_save_processing">저장중 ....</string>
+    <string name="effected_save_processing">저장중 ....</string>
+    <string name="beauty_save_processing">저장 중 ....</string>
+    <string name="popup_title_geotag">위치태그</string>
+    <string name="recorder_stop">촬영 종료중…</string>
+    <string name="tuto_sec_title_sub_land_text">"미리보기 버튼을 눌러 촬영된 사진을 확인하고,
+저장버튼을 눌러 이 기기에도 저장하고,"</string>
+</resources>

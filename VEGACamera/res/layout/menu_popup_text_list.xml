@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pantech.app.vegacamera.menu.popup.TextList android:id="@id/menu_popup_text_list" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/menu_control_bar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@drawable/camera_menu_bg" android:layout_width="@dimen/menu_popup_text_list_width" android:layout_height="@dimen/menu_popup_text_list_height" android:layout_centerVertical="true">
+            <ListView android:orientation="vertical" android:id="@id/popup_list_vg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/menu_popup_text_list_margin_left" android:layout_marginTop="@dimen/menu_popup_text_list_margin_top" android:layout_marginRight="@dimen/menu_popup_text_list_margin_right" android:layout_marginBottom="@dimen/menu_popup_text_list_margin_bottom" android:divider="@drawable/camera_mode_list_line" android:dividerHeight="@dimen/menu_popup_text_list_line_height" android:choiceMode="singleChoice" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.pantech.app.vegacamera.menu.popup.TextList>

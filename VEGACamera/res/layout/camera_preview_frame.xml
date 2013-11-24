@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/frame_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pantech.app.vegacamera.PreviewFrameLayout android:id="@id/frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <ImageView android:id="@id/grid_v" android:background="@drawable/camera_grid" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/content_description_empty" />
+        <com.pantech.app.vegacamera.ui.FaceView android:id="@id/face_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.pantech.app.vegacamera.ui.OjtView android:id="@id/ojt_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/focus_indicator" />
+    </com.pantech.app.vegacamera.PreviewFrameLayout>
+</RelativeLayout>

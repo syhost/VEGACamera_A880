@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/actionbar_icon_memory1_in_b" android:id="@id/menu_id_internal" android:title="@string/setting_storage_location_internal" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/actionbar_icon_memory_out_b" android:id="@id/menu_id_external" android:title="@string/setting_storage_location_external" android:showAsAction="ifRoom" />
+</menu>

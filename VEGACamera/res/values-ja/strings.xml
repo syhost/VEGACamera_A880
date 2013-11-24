@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="focus_mode_auto">自動</string>
+    <string name="focus_mode_infinity">Infinity</string>
+    <string name="focus_mode_macro">Macro</string>
+    <string name="focus_mode_title">フォカース</string>
+    <string name="flash_mode_camera_auto">自動</string>
+    <string name="flash_mode_camera_on">On</string>
+    <string name="flash_mode_camera_off">Off</string>
+    <string name="flash_mode_camera_light">Light</string>
+    <string name="flash_mode_camera_title">フラッシュ</string>
+    <string name="camera_id_back">背面</string>
+    <string name="camera_id_front">前面</string>
+    <string name="effect_color_tone_none">なし</string>
+    <string name="effect_color_tone_mono">モノクロ</string>
+    <string name="effect_color_tone_sepia">セピア</string>
+    <string name="effect_color_tone_aqua">アクア</string>
+    <string name="effect_color_tone_title">カラー効果</string>
+    <string name="effect_color_extraction_off">なし</string>
+    <string name="effect_color_extraction_touch">タッチ</string>
+    <string name="effect_color_extraction_red">赤</string>
+    <string name="effect_color_extraction_green">緑</string>
+    <string name="effect_color_extraction_blue">青</string>
+    <string name="effect_color_extraction_yellow">黄</string>
+    <string name="effect_color_extraction_title">カラーピッカー</string>
+    <string name="mode_video_timelapse_0">Off</string>
+    <string name="mode_video_timelapse_title">微速度撮影</string>
+    <string name="mode_face_effect_none">なし</string>
+    <string name="mode_face_effect_squeeze">スクイーズ</string>
+    <string name="mode_face_effect_bigeyes">目を大きく</string>
+    <string name="mode_face_effect_smalleyes">目を小さく</string>
+    <string name="mode_face_effect_bigmouth">口を大きく</string>
+    <string name="mode_face_effect_smallmouth">口を小さく</string>
+    <string name="mode_face_effect_bignose">鼻を大きく</string>
+    <string name="mode_face_effect_title">顔効果</string>
+    <string name="setting_size_title">解像度</string>
+    <string name="setting_picture_size_title">解像度</string>
+    <string name="setting_record_size_title">解像度</string>
+    <string name="setting_timershot_off">Off</string>
+    <string name="setting_timershot_03">3秒</string>
+    <string name="setting_timershot_05">5秒</string>
+    <string name="setting_timershot_10">10秒</string>
+    <string name="setting_timershot_title">タイマー</string>
+    <string name="setting_ev_title">明るさ</string>
+    <string name="setting_wb_auto">自動</string>
+    <string name="setting_wb_incandescent">白熱灯</string>
+    <string name="setting_wb_daylight">太陽光</string>
+    <string name="setting_wb_fluorescent">蛍光灯</string>
+    <string name="setting_wb_cloudy">曇りの日</string>
+    <string name="setting_photometry_all">ワイド</string>
+    <string name="setting_photometry_center">中央</string>
+    <string name="setting_photometry_title">測光</string>
+    <string name="setting_grid_title">グリッド</string>
+    <string name="setting_goto_viewer_on">On</string>
+    <string name="setting_goto_viewer_3sec">3秒</string>
+    <string name="setting_goto_viewer_5sec">5秒</string>
+    <string name="setting_goto_viewer_off">Off</string>
+    <string name="setting_goto_viewer_title">撮影後表示</string>
+    <string name="setting_anti_banding_50hz">50hz</string>
+    <string name="setting_anti_banding_60hz">60hz</string>
+    <string name="setting_anti_banding_auto">自動</string>
+    <string name="setting_anti_banding_title">周波数補正</string>
+    <string name="setting_gps_info_title">Geotag</string>
+    <string name="setting_voice_record_title">音声録音</string>
+    <string name="setting_shutter_sound_title">シャッター音</string>
+    <string name="setting_anti_shake_title">手ぶれ防止</string>
+    <string name="setting_voice_recognition_title">音声認識</string>
+    <string name="setting_reset_title">デフォルト値にレストア</string>
+    <string name="setting_storage_location_internal">本体メモリ</string>
+    <string name="setting_storage_location_external">SD</string>
+    <string name="sensor_switch">切り替え中</string>
+    <string name="wait_minute">しばらくお待ちください</string>
+    <string name="popup_title_question">確認</string>
+    <string name="popup_title_info">情報</string>
+    <string name="popup_button_yes">はい</string>
+    <string name="popup_button_no">いいえ</string>
+    <string name="camera_label">カメラ</string>
+    <string name="video_camera_label">ムービー</string>
+    <string name="pano_dialog_title">パノラマ</string>
+    <string name="gallery_camera_bucket_name">カメラ写真</string>
+    <string name="gallery_camera_videos_bucket_name">カメラ動画</string>
+    <string name="usb_connected">メモリが使用中です。カメラを終了します</string>
+    <string name="spaceIsLow_content_int">本体メモリ容量不足です。カメラは使用できません</string>
+    <string name="spaceIsLow_content_ext">SDカード容量不足です。カメラは使用できません</string>
+    <string name="cannot_connect_camera">カメラ動作ができません。終了します</string>
+    <string name="cannot_exec_camera_during_phonecall">"通話中です。
+カメラは起動できません"</string>
+    <string name="cannot_exec_camera_here">カメラ使用が制限されています。確認後リトライしてください</string>
+    <string name="cannot_exec_camera_disabled_camera">カメラ使用が制限されています。カメラを起動することができません</string>
+    <string name="cannot_exec_camera_app_crash">他のアプリでカメラが起動中です。確認後リトライしてください</string>
+    <string name="preparing_sd">メディアスキャン中</string>
+    <string name="access_sd_fail">SDカードエラーです。終了します</string>
+    <string name="wait">しばらくお待ちください</string>
+    <string name="accessfail">GPS情報が受信できません</string>
+    <string name="battery_low">電池不足のため5秒後に終了します。撮影中の映像は保存されます</string>
+    <string name="battery_low_before_preview">電池不足のため終了します</string>
+    <string name="go_over_size_limit">添付容量を超えています。終了します</string>
+    <string name="set_disable">通常モード時のみ手振れ防止や測光機能を使用できます</string>
+    <string name="set_disable_front">前面モード時には手ぶれ防止は使用できません</string>
+    <string name="fail_to_save_jpeg">保存できませんでした。終了します</string>
+    <string name="zoom_unavailable">ズームを使用することができません</string>
+    <string name="disable_gallery">"ギャラリ設定がOFFです。
+設定をやり直してください"</string>
+    <string name="cannot_exec_recording_during_phonecall">通話中には動画撮影できません</string>
+    <string name="storageUnavailable_changedStorage">現在のストレジは使用できません。自動的に他のストレジに変更します。</string>
+    <string name="storageLowMemorySD_changedStorage">SDカードに十分なスペースがありません。位置が自動的に変更保存。</string>
+    <string name="storageLowMemoryInt_changedStorage">内部ストレージに十分なスペースがありません。位置が自動的に変更保存。</string>
+    <string name="burstshot_change_resolution">連写モードを撮影するために5Mにサイズを変更します</string>
+    <string name="focus_lock">"フォカースがロックされています。
+フォカースロックのアイコンを長押しすると解除できます"</string>
+    <string name="browser_header">保存先</string>
+    <string name="browser_ok">確認</string>
+    <string name="browser_cancel">キャンセル</string>
+    <string name="browser_internal_default">内蔵メモリ</string>
+    <string name="browser_external_default">SD</string>
+    <string name="recoder_cancel">録画がキャンセルされました</string>
+    <string name="recoder_fail">録画に失敗しました</string>
+    <string name="capture_liveshot">キャプチャーしました。ギャラリーに保存します</string>
+    <string name="error_liveshot">キャプチャー中エラーが発生しました</string>
+    <string name="short_to_save">動画が短過ぎるため保存できませんでした</string>
+    <string name="timelapse_cancel">微速度撮影の設置値も無効になります</string>
+    <string name="timelapseeffect_cancel">微速度撮影効果の設置値も無効になります</string>
+    <string name="video_reach_size_limit">サイズオーバーです</string>
+    <string name="effects_resolution">効果を適用するために撮影サイズを変更します</string>
+    <string name="mms_encoder">H264</string>
+    <string name="mms_resolution">320x240</string>
+    <string name="mms_duration">3600000</string>
+    <string name="temperature_restrict_lcd">"温度上昇を防ぐため
+画面の明るさを調整します"</string>
+    <string name="temperature_restrict_flash">"温度上昇を防ぐため
+フラッシュをOFFにします"</string>
+    <string name="temperature_restrict_recording_stopped">"温度が上昇したため録画を中止します
+本体の温度が下がってからご利用ください"</string>
+    <string name="temperature_restrict_recording_unavailable">"温度が上昇したため録画ができません
+本体の温度が下がってからご利用ください"</string>
+    <string name="temperature_restrict_capture_unavailable">"温度が上昇したため写真撮影ができません
+本体の温度が下がってからご利用ください"</string>
+    <string name="panorama_start">機器を左右に動かすとキャプチャーすることができます</string>
+    <string name="pano_too_fast_prompt">携帯電話をゆっくり動かしてください</string>
+    <string name="pano_dialog_prepare_preview">パノラマを準備しています</string>
+    <string name="pano_dialog_panorama_failed">パノラマ生成に失敗しました</string>
+    <string name="pano_review_saving_indication_str">保存中</string>
+    <string name="capture_cancel">撮影がキャンセルされました</string>
+    <string name="pano_direction_change">パノラマの撮影は同一方向で撮影してください</string>
+    <string name="speech_help">"音声認識で動作します
+Go, Ok, Capture, Take,
+Take picture, Take photo, Smile, Cheese, Say cheese,
+Shoot, 1-2-3, 3-2-1"</string>
+    <string name="speech_net_connect_fail">"ネットワークに
+接続できません。
+接続状態を
+確認してください"</string>
+    <string name="speech_server_error">"サーバーエラーです。
+しばらくして
+からリトライして
+ください"</string>
+    <string name="speech_unknown_error">"不明エラーが
+発生しました。
+しばらくしてから
+リトライしてください"</string>
+    <string name="speech_no_image">"アップロードできる
+イメージがありません"</string>
+    <string name="speech_set_menu">メニューの設定から</string>
+    <string name="speech_set_menu_nl">音声認識を設定する</string>
+    <string name="speech_set_menu_nl2">ことができます</string>
+    <string name="review_cancel">キャンセル</string>
+    <string name="review_ok">OK</string>
+    <string name="alertmediaerror">"再生できません
+"</string>
+    <string name="edit">編集</string>
+    <string name="transfer">共有</string>
+    <string name="delete">削除</string>
+    <string name="skyfont_name_ja_roboto">Roboto</string>
+    <string name="skyfont_name_ja_sqr">モリサワ 新ゴR</string>
+    <string name="skyfont_name_ja_TBUD">タイプバンクUD明朝M</string>
+</resources>

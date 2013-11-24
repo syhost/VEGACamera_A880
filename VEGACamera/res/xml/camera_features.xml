@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<camera-features
+  xmlns:camera="http://schemas.android.com/apk/res/com.pantech.app.vegacamera">
+    <feature camera:FeatureName="color-extraction" camera:Supported="no" />
+    <feature camera:FeatureName="voice-recognition" camera:Supported="yes" />
+    <feature camera:FeatureName="bestface-shot" camera:Supported="yes" />
+    <feature camera:FeatureName="beauty-shot" camera:Supported="yes" />
+    <feature camera:FeatureName="remote" camera:Supported="yes" />
+    <feature camera:FeatureName="self-shot" camera:Supported="yes" />
+    <feature camera:FeatureName="note" camera:Supported="yes" />
+    <feature camera:FeatureName="ia-mode" camera:Supported="no" />
+    <feature camera:FeatureName="dual-shot" camera:Supported="no" />
+    <feature camera:FeatureName="smart-cover" camera:Supported="no" />
+    <feature camera:FeatureName="face-tagging" camera:Supported="yes" />
+    <feature camera:FeatureName="cartoon" camera:Supported="no" />
+    <feature camera:FeatureName="used-zoom-ctl-key" camera:Supported="no" />
+    <feature camera:FeatureName="timer-shot-att" camera:Supported="no" />
+    <feature camera:FeatureName="fixed-camera-default-size" camera:Supported="yes" />
+    <feature camera:FeatureName="camera-default-size" camera:Supported="4160x2340" />
+    <feature camera:FeatureName="used-gesture-longtap-af-ae-lock" camera:Supported="yes" />
+    <feature camera:FeatureName="used-antibanding" camera:Supported="no" />
+    <feature camera:FeatureName="used-metadatacb" camera:Supported="yes" />
+    <feature camera:FeatureName="used-object-tracking" camera:Supported="no" />
+    <feature camera:FeatureName="bestshot-orientation" camera:Supported="yes" />
+    <feature camera:FeatureName="used-face-detection" camera:Supported="no" />
+    <feature camera:FeatureName="hardware-ISP" camera:Supported="no" />
+    <feature camera:FeatureName="burst-sound" camera:Supported="no" />
+</camera-features>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="focus_mode_auto">自动</string>
+    <string name="focus_mode_infinity">无限远</string>
+    <string name="focus_mode_macro">微距</string>
+    <string name="focus_mode_title">对焦模式</string>
+    <string name="flash_mode_camera_auto">自动</string>
+    <string name="flash_mode_camera_on">开</string>
+    <string name="flash_mode_camera_off">关</string>
+    <string name="flash_mode_camera_light">Light</string>
+    <string name="flash_mode_camera_title">闪光灯模式</string>
+    <string name="camera_id_back">背部</string>
+    <string name="camera_id_front">正面</string>
+    <string name="effect_color_tone_none">无</string>
+    <string name="effect_color_tone_mono">灰度</string>
+    <string name="effect_color_tone_sepia">怀旧</string>
+    <string name="effect_color_tone_aqua">水绿色</string>
+    <string name="effect_color_tone_title">颜色效果</string>
+    <string name="effect_color_extraction_off">无</string>
+    <string name="effect_color_extraction_touch">触摸</string>
+    <string name="effect_color_extraction_red">红色</string>
+    <string name="effect_color_extraction_green">绿色</string>
+    <string name="effect_color_extraction_blue">蓝色</string>
+    <string name="effect_color_extraction_yellow">黄色</string>
+    <string name="effect_color_extraction_title">拾色器</string>
+    <string name="mode_video_timelapse_0">关</string>
+    <string name="mode_video_timelapse_title">延时</string>
+    <string name="mode_face_effect_none">无</string>
+    <string name="mode_face_effect_squeeze">挤眼</string>
+    <string name="mode_face_effect_bigeyes">大眼睛</string>
+    <string name="mode_face_effect_smalleyes">小眼睛</string>
+    <string name="mode_face_effect_bigmouth">大嘴</string>
+    <string name="mode_face_effect_smallmouth">小嘴</string>
+    <string name="mode_face_effect_bignose">大鼻子</string>
+    <string name="mode_face_effect_title">面部效果</string>
+    <string name="setting_size_title">分辨率</string>
+    <string name="setting_picture_size_title">分辨率</string>
+    <string name="setting_record_size_title">分辨率</string>
+    <string name="setting_timershot_off">关</string>
+    <string name="setting_timershot_03">3 秒</string>
+    <string name="setting_timershot_05">5 秒</string>
+    <string name="setting_timershot_10">10 秒</string>
+    <string name="setting_timershot_title">计时器</string>
+    <string name="setting_ev_title">曝光</string>
+    <string name="setting_wb_auto">自动</string>
+    <string name="setting_wb_incandescent">钨光</string>
+    <string name="setting_wb_daylight">日光</string>
+    <string name="setting_wb_fluorescent">荧光</string>
+    <string name="setting_wb_cloudy">多云</string>
+    <string name="setting_photometry_all">广角</string>
+    <string name="setting_photometry_center">中心</string>
+    <string name="setting_photometry_spot">点</string>
+    <string name="setting_photometry_title">测光</string>
+    <string name="setting_grid_off">关</string>
+    <string name="setting_grid_title">网格</string>
+    <string name="setting_goto_viewer_on">开</string>
+    <string name="setting_goto_viewer_3sec">3 秒</string>
+    <string name="setting_goto_viewer_5sec">5 秒</string>
+    <string name="setting_goto_viewer_off">关</string>
+    <string name="setting_goto_viewer_title">审查画面</string>
+    <string name="setting_focus_mode_touch">触摸</string>
+    <string name="setting_focus_mode_object_tracking">追踪對焦</string>
+    <string name="setting_focus_mode_title">对焦模式</string>
+    <string name="setting_anti_banding_title">反条带</string>
+    <string name="setting_gps_info_on">开</string>
+    <string name="setting_gps_info_off">关</string>
+    <string name="setting_gps_info_title">地理标记</string>
+    <string name="setting_voice_record_on">开</string>
+    <string name="setting_voice_record_off">关</string>
+    <string name="setting_voice_record_title">录音</string>
+    <string name="setting_shutter_sound_on">开</string>
+    <string name="setting_shutter_sound_off">关</string>
+    <string name="setting_shutter_sound_title">快门提示音</string>
+    <string name="setting_anti_shake_on">开</string>
+    <string name="setting_anti_shake_off">关</string>
+    <string name="setting_anti_shake_title">防抖</string>
+    <string name="setting_voice_recognition_on">开</string>
+    <string name="setting_voice_recognition_off">关</string>
+    <string name="setting_voice_recognition_title">语音识别</string>
+    <string name="setting_reset_title">恢复至默认值</string>
+    <string name="setting_storage_location_internal">手机</string>
+    <string name="setting_storage_location_external">SD</string>
+    <string name="sensor_switch">正在加载……</string>
+    <string name="wait_minute">请等待一会儿。</string>
+    <string name="popup_title_question">问题</string>
+    <string name="popup_title_info">信息</string>
+    <string name="popup_button_yes">是</string>
+    <string name="popup_button_no">否</string>
+    <string name="camera_label">相机</string>
+    <string name="video_camera_label">摄录像机</string>
+    <string name="pano_dialog_title">全景</string>
+    <string name="gallery_camera_bucket_name">相机照片</string>
+    <string name="gallery_camera_videos_bucket_name">相机视频</string>
+    <string name="usb_connected">内存使用中时结束相机。</string>
+    <string name="spaceIsLow_content_int">由于已超出内存容量无法使用相机。</string>
+    <string name="spaceIsLow_content_ext">由于已超出内存容量无法使用相机。</string>
+    <string name="cannot_connect_camera">无法操作相机。 结束相机。</string>
+    <string name="cannot_exec_camera_during_phonecall">通话期间结束摄录像机。</string>
+    <string name="cannot_exec_camera_here">无法操作相机。请解锁并重试。</string>
+    <string name="cannot_exec_camera_disabled_camera">无法操作相机。任务不被支持。</string>
+    <string name="cannot_exec_camera_app_crash">关闭另一摄像头应用程序并重试。</string>
+    <string name="preparing_sd">媒体扫描…</string>
+    <string name="access_sd_fail">由于无法识别的 SD 卡结束相机。</string>
+    <string name="wait">请稍候……</string>
+    <string name="accessfail">无法接收 GPS 信息。</string>
+    <string name="battery_low">由于电池电量低相机将在 5 秒后关闭。 将保存录制文件。</string>
+    <string name="battery_low_before_preview">由于电池电量低相机将关闭。</string>
+    <string name="go_over_size_limit">由于已超出尺寸限制结束相机。</string>
+    <string name="set_disable">防抖和测光功能仅在正常模式下可用。</string>
+    <string name="set_disable_front">防抖不可用于正面相机。</string>
+    <string name="fail_to_save_jpeg">无法保存。 结束相机。</string>
+    <string name="zoom_unavailable">缩放不可用。</string>
+    <string name="disable_gallery">"图片库已禁用。
+检查应用程序设置。"</string>
+    <string name="cannot_exec_recording_during_phonecall">无法在通话期间录制。</string>
+    <string name="storageUnavailable_changedStorage">当前存储不可用。 已自动更改存储位置。</string>
+    <string name="storageLowMemorySD_changedStorage">SD 卡上空间不足。 保存位置已自动更改。</string>
+    <string name="storageLowMemoryInt_changedStorage">内部存储上空间不足。 保存位置已自动更改。</string>
+    <string name="burstshot_change_resolution">将连拍的分辨率更改为 5M。</string>
+    <string name="focus_lock">"焦点已锁定。 
+轻敲屏幕以设置曝光。 
+若需解锁，请点触焦点锁定图标。"</string>
+    <string name="hdr_save">保存</string>
+    <string name="hdr_save_processing">正在保存 HDR 图片。</string>
+    <string name="shutter_timer_tutorial_title">快速关闭定时器</string>
+    <string name="shutter_timer_tutorial_sub">可通过将捕捉按钮拖动到屏幕内部进行设置，无需在设置中选择时间列表。</string>
+    <string name="browser_header">保存位置</string>
+    <string name="browser_ok">确定</string>
+    <string name="browser_cancel">取消</string>
+    <string name="recoder_cancel">录制已取消。</string>
+    <string name="capture_liveshot">已捕捉。 已保存至图片库。</string>
+    <string name="error_liveshot">捕捉时发生错误。</string>
+    <string name="short_to_save">所录制的视频过短无法保存。</string>
+    <string name="timelapse_cancel">延时被禁用。</string>
+    <string name="timelapseeffect_cancel">延时影响被禁用。</string>
+    <string name="video_reach_size_limit">已达到尺寸限制。</string>
+    <string name="effects_resolution">分辨率已更改以应用效果。</string>
+    <string name="mms_size">1048576</string>
+    <string name="mms_encoder">H264</string>
+    <string name="mms_resolution">320x240</string>
+    <string name="mms_duration">3600000</string>
+    <string name="temperature_restrict_lcd">"为了防止温度上升
+在液晶屏的亮度被调整"</string>
+    <string name="temperature_restrict_flash">"为了防止温度上升
+闪光灯关闭"</string>
+    <string name="temperature_restrict_recording_stopped">"随着器件温度升高时记录停止
+当温度降低时请使用"</string>
+    <string name="temperature_restrict_recording_unavailable">"随着器件温度升高时记录是不可用的
+当温度降低时请使用"</string>
+    <string name="temperature_restrict_capture_unavailable">"随着器件温度升高时不能拍照
+当温度降低时请使用"</string>
+    <string name="no_save_ok_btn">"您没有选择最佳表情
+您想现在结束吗?"</string>
+    <string name="bestshot_change_orientation">无法编辑所拍摄的图片，方向改变。</string>
+    <string name="bestshot_change_resolution">更改分辨率为最佳的脸部到8M。</string>
+    <string name="burstshot_noti_no_face">"没有脸部表情可编辑
+请参考提示"</string>
+    <string name="best_cling_title">捕捉最好的神情</string>
+    <string name="best_cling_content">当你使用最好的表情功能时，可捕捉你最佳的表情</string>
+    <string name="face_cling_title">选取表情</string>
+    <string name="face_cling_content">选取最佳的脸部表情</string>
+    <string name="cling_next">下一步</string>
+    <string name="cling_backtostart">返回</string>
+    <string name="cling_dismiss">确定</string>
+    <string name="cling_save">储存</string>
+    <string name="change_person">按方框选择其他人</string>
+    <string name="cling_saving_done">结束编辑</string>
+    <string name="middle_change_face_title">改变脸部表情</string>
+    <string name="middle_change_face_content">选取小圆圈以改变脸部表情</string>
+    <string name="port_best_cling_content">当你使用最好的表情功能时，可捕捉你最佳的表情</string>
+    <string name="details_ok">确定</string>
+    <string name="panorama_start">水平移动以开始捕捉。</string>
+    <string name="pano_too_fast_prompt">过快</string>
+    <string name="pano_dialog_prepare_preview">准备全景</string>
+    <string name="pano_dialog_panorama_failed">创建全景失败</string>
+    <string name="pano_review_saving_indication_str">正在保存……</string>
+    <string name="capture_cancel">捕捉已取消。</string>
+    <string name="pano_direction_change">在相同方向上移动</string>
+    <string name="speech_help">"语音捕捉可用。
+Go, Ok, Capture, Take,
+Take picture, Take photo, Smile, Cheese, Say cheese,
+Shoot, 1-2-3, 3-2-1"</string>
+    <string name="speech_net_connect_fail">"无法连接网络。
+ 检查连接。"</string>
+    <string name="speech_server_error">"发生服务器错误，
+请稍后重试。"</string>
+    <string name="speech_unknown_error">"发生未知错误，
+请稍后重试。"</string>
+    <string name="speech_no_image">无待上传的图片</string>
+    <string name="speech_set_menu">从摄像头菜单选择</string>
+    <string name="speech_set_menu_nl">设置以开启</string>
+    <string name="speech_set_menu_nl2">语音识别。</string>
+    <string name="review_cancel">取消</string>
+    <string name="review_ok">确定</string>
+    <string name="alertmediaerror">"无法播放。
+"</string>
+    <string name="edit">编辑</string>
+    <string name="transfer">共享</string>
+    <string name="delete">删除</string>
+    <string name="facetagging">脸部辨识功能</string>
+    <string name="goto_quickview">正在保存</string>
+    <string name="delete_picture_how">您可以上下滑动以删除照片。</string>
+    <string name="aot_finish_aotcamera">当启动其他摄像头应用程序时迷你摄像头将结束。</string>
+    <string name="aot_unavailable_aotcamera_while_other_camera">当摄像头运行时，迷你摄像头不可用。</string>
+    <string name="aot_unavailable_aotcamera_while_media">当媒体运行时，迷你摄像头不可用。</string>
+    <string name="image_saved">保存的图像。</string>
+    <string name="fail_to_image_load">图像加载失败。</string>
+    <string name="bestpopup_confirm">确认</string>
+    <string name="bestshot_memory_not_enough">不能保存图像，没有足够的内存</string>
+    <string name="burstshot_noti_error_restart">"也有一些是错误的。
+请捕捉新的图片。"</string>
+</resources>

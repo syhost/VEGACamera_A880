@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/button_2nd_depth_item_l" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/button_2nd_depth_item_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <TextView android:textSize="@dimen/menu_popup_2nd_button_list_item_text_size" android:textColor="@color/menu_popup_2nd_button_list_item_text_color_normal" android:gravity="center" android:id="@id/button_2nd_depth_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/menu_item_text_shadow_color_white" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+    </RelativeLayout>
+</RelativeLayout>

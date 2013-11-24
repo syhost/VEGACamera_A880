@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:id="@id/refresh_dialog_root_layout" android:background="#55000000" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pantech.app.vegacamera.ui.RotateLayout android:gravity="center" android:layout_gravity="center" android:id="@id/refresh_dialog_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/refresh_dialog" android:background="@drawable/popup_bg" android:layout_width="284.0dip" android:layout_height="243.0dip">
+            <ImageView android:id="@id/refresh_line" android:background="@drawable/popup_title_under_bar" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginTop="50.0dip" android:layout_alignLeft="@id/refresh_dialog" />
+            <TextView android:textSize="19.0dip" android:textColor="#ff467e7e" android:id="@id/refresh_dialog_title" android:layout_width="250.0dip" android:layout_height="40.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="17.0dip" android:layout_alignLeft="@id/refresh_dialog" android:layout_alignTop="@id/refresh_dialog" />
+            <ImageView android:gravity="center_vertical" android:id="@id/refresh_hidden_dialog" android:layout_width="270.0dip" android:layout_height="132.0dip" android:layout_below="@id/refresh_dialog_title" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/refresh_dialog_text" android:layout_width="260.0dip" android:layout_height="132.0dip" android:layout_marginLeft="15.0dip" android:layout_below="@id/refresh_dialog_title" />
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/refresh_bottom_layout" android:background="@drawable/pt_popup_button_bottom" android:layout_width="fill_parent" android:layout_height="43.0dip" android:layout_alignParentBottom="true">
+                <Button android:textSize="15.0dip" android:textColor="#ff000000" android:id="@id/refresh_dialog_confirm_btn" android:background="@drawable/btn_popup_yesno" android:layout_width="274.0dip" android:layout_height="43.0dip" android:text="@string/popup_ok" android:layout_below="@id/refresh_hidden_dialog" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.pantech.app.vegacamera.ui.RotateLayout>
+</FrameLayout>

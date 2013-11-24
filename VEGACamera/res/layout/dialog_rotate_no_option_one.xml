@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:id="@id/no_option_one_rotate_dialog_root_layout" android:background="#b3000000" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.pantech.app.vegacamera.ui.RotateLayout android:gravity="center" android:layout_gravity="center" android:id="@id/no_option_one_rotate_dialog_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/pt_dialog_full_holo_light" android:paddingLeft="21.0dip" android:paddingRight="14.0dip" android:layout_width="310.0dip" android:layout_height="171.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/no_option_one_first_inner_layout" android:layout_width="107.0dip" android:layout_height="fill_parent">
+                    <ProgressBar android:layout_gravity="center_vertical" android:id="@id/no_option_one_rotate_dialog_spinner" android:layout_width="72.0dip" android:layout_height="72.0dip" android:indeterminateDrawable="@drawable/progressbar_custom_img" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="20.0dip">
+                    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_centerInParent="true">
+                        <TextView android:textSize="14.0dip" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/no_option_one_dialog_top_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.pantech.app.vegacamera.ui.RotateLayout>
+</FrameLayout>
