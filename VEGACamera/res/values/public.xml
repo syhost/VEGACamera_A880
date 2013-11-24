@@ -2344,7 +2344,7 @@
     <public type="string" name="setting_help_reset_confirm" id="0x7f0d00b8" />
     <public type="string" name="setting_size_title" id="0x7f0d00b9" />
     <public type="string" name="pref_setting_picture_size_default" id="0x7f0d00ba" />
-    <public type="string" name="setting_picture_size_4160x3120" id="0x7f0d00bb" />
+    <public type="string" name="setting_picture_size_4192x3104" id="0x7f0d00bb" />
     <public type="string" name="setting_picture_size_4160x2340" id="0x7f0d00bc" />
     <public type="string" name="setting_picture_size_3264x2448" id="0x7f0d00bd" />
     <public type="string" name="setting_picture_size_3200x1920" id="0x7f0d00be" />

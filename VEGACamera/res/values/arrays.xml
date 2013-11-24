@@ -580,7 +580,7 @@
         <item>pref_setting_storage_location</item>
     </string-array>
     <string-array name="setting_picture_size_entries">
-        <item>@string/setting_picture_size_4160x3120</item>
+        <item>@string/setting_picture_size_4192x3104</item>
         <item>@string/setting_picture_size_4160x2340</item>
         <item>@string/setting_picture_size_3264x2448</item>
         <item>@string/setting_picture_size_3200x1920</item>
@@ -590,7 +590,7 @@
         <item>@string/setting_picture_size_640x480</item>
     </string-array>
     <string-array name="setting_picture_size_entryvalues">
-        <item>4160x3120</item>
+        <item>4192x3104</item>
         <item>4160x2340</item>
         <item>3264x2448</item>
         <item>3200x1920</item>
@@ -617,7 +617,7 @@
         <item>@string/setting_record_size_qcif</item>
     </string-array>
     <string-array name="setting_record_size_entryvalues">
-        <item>1920x1080</item>
+        <item>1920x1088</item>
         <item>1280x720</item>
         <item>720x480</item>
         <item>320x240</item>

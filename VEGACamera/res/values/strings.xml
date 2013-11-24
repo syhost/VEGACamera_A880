@@ -191,8 +191,8 @@ Spot : The Spot mode calculates the amount of light in a designated area."</stri
     <string name="setting_help_reset_tips">Return to default settings.</string>
     <string name="setting_help_reset_confirm">Options in settings will be reset.</string>
     <string name="setting_size_title">Resolution</string>
-    <string name="pref_setting_picture_size_default">4160x2340</string>
-    <string name="setting_picture_size_4160x3120">13M</string>
+    <string name="pref_setting_picture_size_default">4192x3104</string>
+    <string name="setting_picture_size_4192x3104">13M</string>
     <string name="setting_picture_size_4160x2340">W10M</string>
     <string name="setting_picture_size_3264x2448">8M</string>
     <string name="setting_picture_size_3200x1920">W6M</string>
@@ -201,7 +201,7 @@ Spot : The Spot mode calculates the amount of light in a designated area."</stri
     <string name="setting_picture_size_1600x1200">2M</string>
     <string name="setting_picture_size_640x480">0.3M</string>
     <string name="setting_picture_size_title">Resolution</string>
-    <string name="pref_setting_record_size_default">1920x1080</string>
+    <string name="pref_setting_record_size_default">1920x1088</string>
     <string name="setting_record_size_fhd">FHD</string>
     <string name="setting_record_size_hd">HD</string>
     <string name="setting_record_size_wvga">WVGA</string>

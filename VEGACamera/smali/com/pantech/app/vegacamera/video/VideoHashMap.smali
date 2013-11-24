@@ -277,7 +277,7 @@
     .line 63
     sget-object v0, Lcom/pantech/app/vegacamera/video/VideoHashMap;->VIDEOQUALITY_BITRATE_TABLE:Lcom/pantech/app/vegacamera/video/VideoHashMap$DefaultHashMap;
 
-    const-string v1, "1920x1080"
+    const-string v1, "1920x1088"
 
     const v2, 0x112a880
 
@@ -386,7 +386,7 @@
     .line 74
     sget-object v0, Lcom/pantech/app/vegacamera/video/VideoHashMap;->VIDEORESOLUTION_QUALITY_TABLE:Lcom/pantech/app/vegacamera/video/VideoHashMap$DefaultHashMap;
 
-    const-string v1, "1920x1080"
+    const-string v1, "1920x1088"
 
     const/4 v2, 0x6
 

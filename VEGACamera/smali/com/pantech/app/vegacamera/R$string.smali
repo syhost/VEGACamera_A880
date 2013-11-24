@@ -1749,7 +1749,7 @@
 
 .field public static final setting_picture_size_4160x2340:I = 0x7f0d00bc
 
-.field public static final setting_picture_size_4160x3120:I = 0x7f0d00bb
+.field public static final setting_picture_size_4192x3104:I = 0x7f0d00bb
 
 .field public static final setting_picture_size_640x480:I = 0x7f0d00c2
 
